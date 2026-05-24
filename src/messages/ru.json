@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "servicios": "Servicios",
+    "nosotros": "Nosotros",
+    "trabajos": "Trabajos",
+    "contacto": "Contacto",
+    "presupuesto": "Presupuesto"
+  },
+  "hero": {
+    "kicker": "Premium Exterior Cleaning",
+    "titleLine1": "Limpieza exterior.",
+    "titleLine2Pre": "Resultados ",
+    "titleLine2Accent": "que se notan.",
+    "subtitle": "Cuidamos cada superficie como si fuera nuestra.",
+    "tags": ["Clean", "Protect", "Restore", "Care"],
+    "cta": "Solicitar presupuesto"
+  },
+  "compare": {
+    "kicker": "Resultados que hablan por sí mismos",
+    "titleLine1": "La diferencia",
+    "titleAccent": "se ve.",
+    "subtitle": "Recuperamos la belleza original de cada superficie.",
+    "before": "Antes",
+    "after": "Después"
+  },
+  "services": {
+    "kicker": "Servicios Premium",
+    "titleLine1": "Cuidamos cada",
+    "titleLine2Pre": "detalle ",
+    "titleLine2Accent": "exterior.",
+    "subtitle": "Soluciones profesionales para todo tipo de superficies. Resultados impecables, duraderos y seguros.",
+    "items": {
+      "patios": {
+        "title": "Patios y terrazas",
+        "desc": "Recuperamos el aspecto original de pavimentos, porcelánicos, piedra natural, hormigón impreso y superficies exteriores."
+      },
+      "fachadas": {
+        "title": "Fachadas",
+        "desc": "Eliminamos suciedad, polvo, contaminación, manchas y residuos acumulados para devolver a tu fachada una imagen limpia y cuidada."
+      },
+      "cubiertas": {
+        "title": "Cubiertas y tejados",
+        "desc": "Retiramos musgo, suciedad, hojas y residuos que afectan la estética y pueden acelerar el deterioro de la cubierta."
+      },
+      "placas": {
+        "title": "Placas solares",
+        "desc": "La acumulación de polvo y suciedad reduce el rendimiento de los paneles. Realizamos limpiezas seguras para ayudar a mantener su máxima eficiencia."
+      },
+      "garajes": {
+        "title": "Garajes y entradas",
+        "desc": "Eliminamos manchas de aceite, marcas de neumáticos, polvo y suciedad incrustada."
+      },
+      "muros": {
+        "title": "Muros y vallados",
+        "desc": "Limpieza profesional de cerramientos, muros y elementos exteriores para un acabado uniforme y renovado."
+      }
+    }
+  },
+  "compromiso": {
+    "kicker": "Compromiso Velaro",
+    "titleLine1": "Calidad que",
+    "titleAccent": "se nota.",
+    "intro": "Tratamos cada propiedad como si fuera nuestra. Nuestro objetivo no es simplemente limpiar, sino recuperar la mejor versión de cada superficie, aportando valor estético, protección y una imagen impecable a tu hogar o negocio.",
+    "points": [
+      "Atención personalizada",
+      "Presupuestos claros y sin compromiso",
+      "Acabados premium",
+      "Resultados visibles desde la primera limpieza",
+      "Equipamiento profesional de última generación",
+      "Máximo cuidado de cada superficie",
+      "Puntualidad y profesionalidad",
+      "Servicio disponible de lunes a domingo"
+    ]
+  },
+  "tecnologia": {
+    "kicker": "Tecnología y precisión",
+    "titleLine1": "Equipos profesionales.",
+    "titleLine2Pre": "Resultados ",
+    "titleLine2Accent": "superiores.",
+    "subtitle": "Trabajamos con equipos profesionales Kärcher y productos de limpieza especializados para garantizar resultados superiores.",
+    "points": [
+      "Equipamiento Kärcher Professional",
+      "Productos de limpieza de alta calidad",
+      "Menor consumo de agua",
+      "Máxima eficacia en manchas difíciles",
+      "Limpieza segura para cada superficie",
+      "Resultados duraderos"
+    ],
+    "footnote": "Nuestros equipos permiten eliminar incluso las manchas más difíciles producidas por años de acumulación de suciedad, humedad, moho, polvo, grasa y contaminación ambiental."
+  },
+  "proceso": {
+    "kicker": "Nuestro proceso",
+    "titleLine1": "Así trabajamos,",
+    "titleAccent": "paso a paso.",
+    "subtitle": "Un método claro y eficiente para obtener resultados impecables en cada proyecto.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Evaluación",
+        "desc": "Analizamos la superficie y el nivel de suciedad."
+      },
+      {
+        "num": "02",
+        "title": "Plan personalizado",
+        "desc": "Seleccionamos la técnica y los productos adecuados."
+      },
+      {
+        "num": "03",
+        "title": "Limpieza profesional",
+        "desc": "Aplicamos equipos Kärcher Professional y productos especializados."
+      },
+      {
+        "num": "04",
+        "title": "Resultado impecable",
+        "desc": "Entregamos superficies limpias, renovadas y protegidas."
+      }
+    ]
+  },
+  "calculadora": {
+    "kicker": "Presupuesto al instante",
+    "titleLine1": "Calcula tu",
+    "titleAccent": "presupuesto.",
+    "subtitle": "Cada superficie es única. Obtén una estimación orientativa en segundos. El precio final se confirma tras una valoración sin compromiso.",
+    "labelSurface": "Tipo de superficie",
+    "labelArea": "Superficie aproximada",
+    "labelDirt": "Nivel de suciedad",
+    "labelUrgency": "¿Necesitas servicio urgente?",
+    "surfaces": {
+      "patios": "Patios y terrazas",
+      "fachadas": "Fachadas",
+      "cubiertas": "Cubiertas y tejados",
+      "placas": "Placas solares",
+      "garajes": "Garajes y entradas",
+      "muros": "Muros y vallados"
+    },
+    "dirtLevels": {
+      "low": "Ligera",
+      "medium": "Media",
+      "high": "Intensa"
+    },
+    "urgency": {
+      "no": "No, fecha flexible",
+      "yes": "Sí, lo antes posible"
+    },
+    "estimateLabel": "Estimación orientativa",
+    "perJob": "para este trabajo",
+    "disclaimer": "Estimación orientativa. El presupuesto definitivo se confirma con una valoración gratuita y sin compromiso.",
+    "cta": "Solicitar presupuesto exacto por WhatsApp",
+    "areaUnit": "m²"
+  },
+  "reseñas": {
+    "kicker": "Reseñas",
+    "titleLine1": "Lo que dicen",
+    "titleAccent": "nuestros clientes.",
+    "items": [
+      {
+        "name": "María G.",
+        "location": "Madrid",
+        "text": "El resultado en la terraza fue espectacular. Parecía nueva. Muy profesionales y puntuales."
+      },
+      {
+        "name": "Carlos R.",
+        "location": "Las Rozas",
+        "text": "Limpiaron la fachada y las placas solares de casa. Trato cercano y un acabado impecable."
+      },
+      {
+        "name": "Elena M.",
+        "location": "Pozuelo",
+        "text": "Presupuesto claro desde el principio y sin sorpresas. El garaje quedó como el primer día."
+      }
+    ]
+  },
+  "contacto": {
+    "kicker": "Solicita tu presupuesto",
+    "titleLine1": "Cuéntanos",
+    "titleAccent": "qué necesitas.",
+    "subtitle": "Prepararemos una propuesta personalizada para ti.",
+    "points": [
+      "Presupuesto sin compromiso",
+      "Respuesta rápida",
+      "Servicio disponible también sábados y domingos",
+      "Atención profesional y cercana"
+    ],
+    "whatsapp": "Escríbenos por WhatsApp",
+    "email": "info@velaro.es",
+    "phone": "+34 600 123 456",
+    "instagram": "@velaro.cleaning"
+  },
+  "footer": {
+    "tagline": "Resultados que se ven. Calidad que permanece.",
+    "rights": "Todos los derechos reservados.",
+    "nav": "Navegación",
+    "contact": "Contacto",
+    "social": "Síguenos"
+  }
+}

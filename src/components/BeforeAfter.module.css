@@ -1,0 +1,83 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: ew-resize;
+  user-select: none;
+  touch-action: none;
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--surface-line);
+}
+
+.after,
+.before {
+  position: absolute;
+  inset: 0;
+}
+
+.before {
+  will-change: clip-path;
+}
+
+.after :global(img),
+.before :global(img),
+.after > div,
+.before > div {
+  width: 100%;
+  height: 100%;
+}
+
+.label {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.45rem 0.85rem;
+  background: rgba(8, 10, 14, 0.78);
+  backdrop-filter: blur(6px);
+  border-radius: 8px;
+  z-index: 4;
+}
+
+.labelLeft { left: 1rem; }
+.labelRight { right: 1rem; }
+
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.85);
+  transform: translateX(-1px);
+  z-index: 5;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+}
+
+.handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(8, 10, 14, 0.85);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: transform 0.25s, border-color 0.25s;
+}
+
+.handle:hover {
+  transform: translate(-50%, -50%) scale(1.08);
+  border-color: var(--accent-bright);
+}

@@ -1,0 +1,118 @@
+.section {
+  background: var(--bg-elevated);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.left .kicker { margin-bottom: 1.1rem; }
+
+.points {
+  list-style: none;
+  margin-top: 2rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.points li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+.points li :global(svg) {
+  color: var(--accent-bright);
+  flex-shrink: 0;
+}
+
+.card {
+  position: relative;
+  background: linear-gradient(160deg, #121a2b, #0b0f18);
+  border: 1px solid var(--surface-line-strong);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.8rem, 3vw, 2.6rem);
+  overflow: hidden;
+}
+
+.cardGlow {
+  position: absolute;
+  top: -30%;
+  right: -20%;
+  width: 70%;
+  height: 70%;
+  background: radial-gradient(circle, var(--accent-glow), transparent 70%);
+  filter: blur(30px);
+  pointer-events: none;
+}
+
+.waBtn {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1.8rem;
+}
+
+.channels {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border-radius: 12px;
+  border: 1px solid var(--surface-line);
+  background: rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s, transform 0.3s, background 0.3s;
+}
+
+.channel:hover {
+  border-color: var(--accent);
+  transform: translateX(4px);
+}
+
+.cIcon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: rgba(47, 129, 247, 0.12);
+  color: var(--accent-bright);
+}
+
+.channel span:last-child {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+
+.channel em {
+  font-style: normal;
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.channel strong {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@media (max-width: 880px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
