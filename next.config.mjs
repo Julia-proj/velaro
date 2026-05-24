@@ -6,6 +6,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 const nextConfig = {
   reactStrictMode: true,
   devIndicators: false,
+  outputFileTracingRoot: process.cwd(),
 };
 
 export default withNextIntl(nextConfig);

@@ -17,9 +17,6 @@ export const metadata: Metadata = {
   title: 'Velaro — Premium Exterior Cleaning',
   description:
     'Limpieza exterior profesional. Patios, fachadas, cubiertas, placas solares y más. Resultados que se notan.',
-  icons: {
-    icon: '/favicon.ico',
-  },
   openGraph: {
     title: 'Velaro — Premium Exterior Cleaning',
     description: 'Limpieza exterior profesional. Resultados que se notan.',
