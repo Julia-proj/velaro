@@ -28,36 +28,36 @@ export default function OpenGraphImage() {
             fontSize: 34,
             letterSpacing: 8,
             textTransform: 'uppercase',
-            color: '#4f9bff',
+            color: '#5f93df',
             fontWeight: 600,
           }}
         >
-          Premium Exterior Cleaning
+          Limpieza exterior profesional · Madrid
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <div
             style={{
-              fontSize: 96,
+              fontSize: 74,
               fontWeight: 700,
               lineHeight: 1.02,
               letterSpacing: -3,
             }}
           >
-            Limpieza exterior.
+            Limpieza de placas solares
           </div>
           <div
             style={{
               display: 'flex',
               gap: 22,
-              fontSize: 96,
+              fontSize: 74,
               fontWeight: 700,
               lineHeight: 1.02,
               letterSpacing: -3,
             }}
           >
-            <span>Resultados</span>
-            <span style={{ color: '#4f9bff' }}>que se notan.</span>
+            <span>y exteriores en</span>
+            <span style={{ color: '#5f93df' }}>Madrid</span>
           </div>
         </div>
 
