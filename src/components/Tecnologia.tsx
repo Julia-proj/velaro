@@ -34,8 +34,8 @@ export default function Tecnologia() {
         </Reveal>
 
         <Reveal delay={0.12} className={styles.visual} y={20}>
-          <div style={{ aspectRatio: '3 / 4', borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--surface-line)', boxShadow: 'var(--shadow-card)' }}>
-            <Photo alt="Equipos Kärcher Professional" src="/images/IMG_8286.PNG" seed={2} />
+          <div style={{ width: '100%', maxWidth: '440px', marginInline: 'auto', aspectRatio: '4 / 3', borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--surface-line)', boxShadow: 'var(--shadow-card)' }}>
+            <Photo alt="Resultado de limpieza profesional de placas solares" src="/images/IMG_8286.PNG" seed={2} />
           </div>
         </Reveal>
       </div>

@@ -1,0 +1,75 @@
+.section {
+  background: var(--bg-elevated);
+}
+
+.head {
+  max-width: 620px;
+  margin: 0 auto clamp(2rem, 4vw, 3rem);
+  text-align: center;
+}
+
+.head .kicker {
+  margin-bottom: 1.1rem;
+}
+
+.card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--bg-card);
+  border: 1px solid var(--surface-line);
+  border-radius: var(--radius-lg);
+  padding: clamp(0.6rem, 2vw, 1.4rem) clamp(1.2rem, 3vw, 2.2rem) clamp(1.4rem, 3vw, 2rem);
+  box-shadow: var(--shadow-card);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--surface-line);
+}
+
+.row:last-of-type {
+  border-bottom: none;
+}
+
+.rowLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.icon {
+  color: var(--accent-bright);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.price {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.featured .price {
+  color: var(--accent-bright);
+}
+
+.extra .rowLeft {
+  color: var(--ink-soft);
+}
+
+.note {
+  margin-top: 1.2rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--ink-muted);
+}

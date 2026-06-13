@@ -15,12 +15,12 @@
     "presupuesto": "Presupuesto"
   },
   "hero": {
-    "kicker": "Premium Exterior Cleaning",
-    "titleLine1": "Limpieza exterior.",
-    "titleLine2Pre": "Resultados ",
-    "titleLine2Accent": "que se notan.",
-    "subtitle": "Cuidamos cada superficie como si fuera nuestra.",
-    "tags": ["Clean", "Protect", "Restore", "Care"],
+    "kicker": "Limpieza exterior profesional · Madrid",
+    "titleLine1": "Limpieza de placas solares",
+    "titleLine2Pre": "y exteriores en ",
+    "titleLine2Accent": "Madrid",
+    "subtitle": "Patios, fachadas, cubiertas, garajes y placas solares. Precios claros desde 5 €/m² y presupuesto gratis.",
+    "tags": ["Placas solares", "Patios", "Fachadas", "Cubiertas"],
     "cta": "Solicitar presupuesto"
   },
   "compare": {
@@ -136,7 +136,7 @@
     "kicker": "Presupuesto al instante",
     "titleLine1": "Calcula tu",
     "titleAccent": "presupuesto.",
-    "subtitle": "Cada superficie es única. Obtén una estimación orientativa en segundos. El precio final se confirma tras una valoración sin compromiso.",
+    "subtitle": "Indica la superficie y obtén el precio al instante, sin sorpresas. Confirmamos los detalles con una valoración gratuita.",
     "labelSurface": "Tipo de superficie",
     "labelArea": "Superficie aproximada",
     "labelPanels": "Número de paneles",
@@ -153,13 +153,24 @@
       "no": "No, fecha flexible",
       "yes": "Sí, lo antes posible"
     },
-    "estimateLabel": "Estimación orientativa",
-    "perJob": "para este trabajo",
-    "disclaimer": "Estimación orientativa. El presupuesto definitivo se confirma con una valoración gratuita y sin compromiso.",
+    "estimateLabel": "Precio",
+    "perJob": "según la superficie indicada",
+    "disclaimer": "Precio calculado con los datos que indicas. El servicio mínimo es de 120 €. Confirmamos la superficie final sin compromiso.",
     "cta": "Solicitar presupuesto exacto por WhatsApp",
     "areaUnit": "m²",
     "panelUnit": "paneles",
     "priceNote": "Servicio mínimo 120 € · Servicio urgente +20 %"
+  },
+  "precios": {
+    "kicker": "Precios claros",
+    "titleLine1": "Tarifas",
+    "titleAccent": "transparentes.",
+    "subtitle": "Sin sorpresas: estos son nuestros precios por tipo de superficie.",
+    "min": "Servicio mínimo",
+    "minValue": "120 €",
+    "urgent": "Servicio urgente",
+    "urgentValue": "+20 %",
+    "note": "El precio final depende de la superficie a tratar. Presupuesto gratis y sin compromiso."
   },
   "reseñas": {
     "kicker": "Reseñas",

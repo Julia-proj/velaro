@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import CompareSection from '@/components/CompareSection';
 import Services from '@/components/Services';
 import SolarSpotlight from '@/components/SolarSpotlight';
+import Precios from '@/components/Precios';
 import Compromiso from '@/components/Compromiso';
 import Tecnologia from '@/components/Tecnologia';
 import Proceso from '@/components/Proceso';
@@ -27,13 +28,14 @@ export default async function Home({
       <Header />
       <main>
         <Hero />
-        <CompareSection />
         <Services />
         <SolarSpotlight />
+        <CompareSection />
+        <Precios />
+        <Calculator />
         <Compromiso />
         <Tecnologia />
         <Proceso />
-        <Calculator />
         <Resenas />
         <Faq />
         <Contacto />

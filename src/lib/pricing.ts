@@ -38,7 +38,6 @@ export const PER_PANEL: Record<SurfaceKey, boolean> = {
 
 export const URGENCY_SURCHARGE = 0.2; // +20% for urgent service
 export const MIN_PRICE = 120; // minimum call-out (€)
-export const RANGE_SPREAD = 0.12; // ± shown as a range
 
 /** "10 €/panel" or "5 €/m²" for a given surface. */
 export function unitLabel(surface: SurfaceKey): string {
@@ -53,27 +52,19 @@ export interface QuoteInput {
   urgent: boolean;
 }
 
-export interface QuoteResult {
-  low: number;
-  high: number;
-  mid: number;
-}
-
-export function calculateQuote({
+/**
+ * Exact price for the entered quantity:
+ * quantity × unit rate, never below the minimum call-out, +20% if urgent.
+ */
+export function calculatePrice({
   surface,
   quantity,
   urgent,
-}: QuoteInput): QuoteResult {
+}: QuoteInput): number {
   const raw = quantity * BASE_PRICE[surface];
   const withMin = Math.max(MIN_PRICE, raw);
-  const mid = withMin * (urgent ? 1 + URGENCY_SURCHARGE : 1);
-  const round = (n: number) => Math.round(n / 5) * 5;
-
-  return {
-    low: round(mid * (1 - RANGE_SPREAD)),
-    high: round(mid * (1 + RANGE_SPREAD)),
-    mid: round(mid),
-  };
+  const total = withMin * (urgent ? 1 + URGENCY_SURCHARGE : 1);
+  return Math.round(total);
 }
 
 export function formatEUR(n: number): string {

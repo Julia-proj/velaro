@@ -9,7 +9,7 @@ import { Icon } from './icons';
 import styles from './Hero.module.css';
 
 const ease = [0.2, 0.8, 0.2, 1] as const;
-const TAG_ICONS = [Icon.drop, Icon.sparkles, Icon.house, Icon.leaf] as const;
+const TAG_ICONS = [Icon.sun, Icon.drop, Icon.building, Icon.house] as const;
 
 export default function Hero() {
   const t = useTranslations('hero');

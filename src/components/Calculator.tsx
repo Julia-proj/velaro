@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Reveal } from './Reveal';
 import { Icon } from './icons';
 import {
-  calculateQuote,
+  calculatePrice,
   formatEUR,
   PER_PANEL,
   type SurfaceKey,
@@ -50,8 +50,8 @@ export default function Calculator() {
   const cfg = isPanels ? PANELS : AREA;
   const unit = isPanels ? t('panelUnit') : t('areaUnit');
 
-  const quote = useMemo(
-    () => calculateQuote({ surface, quantity, urgent }),
+  const price = useMemo(
+    () => calculatePrice({ surface, quantity, urgent }),
     [surface, quantity, urgent]
   );
 
@@ -67,9 +67,9 @@ export default function Calculator() {
       `Superficie: ${t(`surfaces.${surface}`)}%0A` +
       `${isPanels ? 'Paneles' : 'Área'}: ${quantity} ${isPanels ? 'paneles' : 'm²'}%0A` +
       `Urgente: ${urgent ? 'Sí' : 'No'}%0A` +
-      `Estimación web: ${formatEUR(quote.low)}–${formatEUR(quote.high)}`;
+      `Precio web: ${formatEUR(price)}`;
     return `https://wa.me/${WHATSAPP}?text=${msg}`;
-  }, [surface, quantity, isPanels, urgent, quote, t]);
+  }, [surface, quantity, isPanels, urgent, price, t]);
 
   return (
     <section id="presupuesto" className={`section ${styles.section}`}>
@@ -153,9 +153,7 @@ export default function Calculator() {
             <div className={styles.resultGlow} />
             <span className={styles.resultLabel}>{t('estimateLabel')}</span>
             <div className={styles.amount}>
-              <AnimatedNumber value={quote.low} />
-              <span className={styles.dash}>–</span>
-              <AnimatedNumber value={quote.high} />
+              <AnimatedNumber value={price} />
             </div>
             <span className={styles.perJob}>{t('perJob')}</span>
 
