@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/routing';
 import { locales, localeNames, type Locale } from '@/i18n/config';
@@ -21,6 +21,8 @@ export default function Header() {
   const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -28,6 +30,17 @@ export default function Header() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  useEffect(() => {
+    if (!langOpen) return;
+    const onClick = (e: MouseEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    };
+    document.addEventListener('pointerdown', onClick);
+    return () => document.removeEventListener('pointerdown', onClick);
+  }, [langOpen]);
 
   const switchLocale = (next: Locale) => {
     router.replace(pathname, { locale: next });
@@ -88,17 +101,35 @@ export default function Header() {
         </nav>
 
         <div className={styles.right}>
-          <div className={styles.lang}>
-            {locales.map((l) => (
-              <button
-                key={l}
-                onClick={() => switchLocale(l)}
-                className={l === locale ? styles.langActive : ''}
-                aria-label={localeNames[l]}
-              >
-                {localeNames[l]}
-              </button>
-            ))}
+          <div className={styles.lang} ref={langRef}>
+            <button
+              className={styles.langTrigger}
+              onClick={() => setLangOpen((o) => !o)}
+              aria-haspopup="listbox"
+              aria-expanded={langOpen}
+              aria-label="Idioma"
+            >
+              {localeNames[locale as Locale]}
+              <span className={`${styles.chev} ${langOpen ? styles.chevOpen : ''}`} aria-hidden="true">▾</span>
+            </button>
+            {langOpen && (
+              <div className={styles.langMenu} role="listbox">
+                {locales.map((l) => (
+                  <button
+                    key={l}
+                    role="option"
+                    aria-selected={l === locale}
+                    onClick={() => {
+                      switchLocale(l);
+                      setLangOpen(false);
+                    }}
+                    className={l === locale ? styles.langActive : ''}
+                  >
+                    {localeNames[l]}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
           <Link href="/#contacto" className={`btn btn-ghost ${styles.cta}`}>
             {t('presupuesto')}

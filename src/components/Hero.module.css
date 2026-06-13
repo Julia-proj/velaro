@@ -137,4 +137,18 @@
 
 @media (max-width: 640px) {
   .scrollHint { display: none; }
+
+  .tags {
+    flex-wrap: wrap;
+    gap: 0.5rem 0;
+    margin: 1.8rem 0 2.2rem;
+  }
+
+  .tag {
+    padding: 0 0.85rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.16em;
+  }
+
+  .sep { height: 24px; }
 }

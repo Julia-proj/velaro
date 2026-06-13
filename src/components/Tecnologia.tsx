@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Reveal } from './Reveal';
-import { Photo } from './Photo';
 import { Icon } from './icons';
 import styles from './Split.module.css';
 
@@ -34,8 +33,18 @@ export default function Tecnologia() {
         </Reveal>
 
         <Reveal delay={0.12} className={styles.visual} y={20}>
-          <div style={{ width: '100%', maxWidth: '440px', marginInline: 'auto', aspectRatio: '4 / 3', borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--surface-line)', boxShadow: 'var(--shadow-card)' }}>
-            <Photo alt="Resultado de limpieza profesional de placas solares" src="/images/IMG_8286.PNG" seed={2} />
+          <div className={styles.karcher}>
+            <span className={styles.karcherBadge}>
+              <Icon.shield width={15} height={15} /> Equipo oficial
+            </span>
+            <div className={styles.karcherBrand}>
+              <span className={styles.karcherName}>KÄRCHER</span>
+              <span className={styles.karcherPro}>Professional</span>
+            </div>
+            <p className={styles.karcherText}>
+              Trabajamos con la tecnología líder mundial en limpieza profesional a
+              presión, para resultados superiores en cada superficie.
+            </p>
           </div>
         </Reveal>
       </div>

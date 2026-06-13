@@ -115,6 +115,78 @@
   margin-top: 2.2rem;
 }
 
+/* Kärcher highlight card (Tecnología) */
+.karcher {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: clamp(1.8rem, 4vw, 2.6rem);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(160deg, #15181d, #0b0d11);
+  border: 1px solid var(--surface-line-strong);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.karcher::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ffd800, #ffb300);
+}
+
+.karcherBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  align-self: flex-start;
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0a0c10;
+  background: #ffd800;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+}
+
+.karcherBrand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.karcherName {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 6vw, 3.4rem);
+  letter-spacing: 0.04em;
+  line-height: 1;
+  color: #fff;
+}
+
+.karcherPro {
+  font-size: 0.88rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: #ffd800;
+  font-weight: 600;
+}
+
+.karcherText {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 38ch;
+}
+
 .footnote {
   margin-top: 1.8rem;
   color: var(--ink-muted);

@@ -101,23 +101,66 @@
 }
 
 .lang {
-  display: flex;
-  gap: 0.15rem;
+  position: relative;
+}
+
+.langTrigger {
+  display: inline-flex;
   align-items: center;
-}
-
-.lang button {
+  gap: 0.4rem;
   font-size: 0.72rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   font-weight: 600;
-  color: var(--ink-muted);
-  padding: 0.3rem 0.5rem;
-  border-radius: 6px;
-  transition: color 0.25s, background 0.25s;
+  color: var(--ink-soft);
+  padding: 0.42rem 0.7rem;
+  border: 1px solid var(--surface-line-strong);
+  border-radius: 999px;
+  transition: color 0.25s, border-color 0.25s;
 }
 
-.lang button:hover {
+.langTrigger:hover {
   color: var(--ink);
+  border-color: var(--accent);
+}
+
+.chev {
+  font-size: 0.6rem;
+  transition: transform 0.25s;
+}
+
+.chevOpen {
+  transform: rotate(180deg);
+}
+
+.langMenu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 104px;
+  background: var(--bg-card);
+  border: 1px solid var(--surface-line-strong);
+  border-radius: 12px;
+  padding: 0.35rem;
+  box-shadow: var(--shadow-soft);
+  z-index: 120;
+}
+
+.langMenu button {
+  text-align: left;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.langMenu button:hover {
+  color: var(--ink);
+  background: var(--surface-line);
 }
 
 .langActive {
