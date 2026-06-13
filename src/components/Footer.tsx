@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import { SITE } from '@/lib/site';
 import styles from './Footer.module.css';
 
 const NAV = ['inicio', 'servicios', 'nosotros', 'trabajos', 'contacto'] as const;
@@ -30,13 +31,12 @@ export default function Footer() {
         <div className={styles.col}>
           <h4>{t('contact')}</h4>
           <a href={`mailto:${tc('email')}`}>{tc('email')}</a>
-          <a href="tel:+34600123456">{tc('phone')}</a>
+          <a href={`https://wa.me/${SITE.whatsapp}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
 
         <div className={styles.col}>
           <h4>{t('social')}</h4>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://wa.me/34600123456" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href={SITE.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>
 

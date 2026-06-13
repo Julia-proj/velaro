@@ -1,12 +1,13 @@
 'use client';
 
 import { Icon } from './icons';
+import { SITE } from '@/lib/site';
 import styles from './FloatingWhatsApp.module.css';
 
 export default function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/34600123456"
+      href={`https://wa.me/${SITE.whatsapp}`}
       target="_blank"
       rel="noopener noreferrer"
       className={styles.fab}

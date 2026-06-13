@@ -8,10 +8,10 @@ import { unitLabel } from '@/lib/pricing';
 import styles from './Services.module.css';
 
 const SERVICES = [
+  { key: 'placas', icon: Icon.sun, seed: 1, src: '/images/IMG_8325.PNG' },
   { key: 'patios', icon: Icon.drop, seed: 0, src: '/images/IMG_8321.PNG' },
   { key: 'fachadas', icon: Icon.building, seed: 2, src: '/images/IMG_8322.PNG' },
   { key: 'cubiertas', icon: Icon.house, seed: 3, src: '/images/IMG_8288.PNG' },
-  { key: 'placas', icon: Icon.sun, seed: 1, src: '/images/IMG_8325.PNG' },
   { key: 'garajes', icon: Icon.car, seed: 4, src: '/images/IMG_8323.PNG' },
   { key: 'muros', icon: Icon.brick, seed: 5, src: '/images/IMG_8284.PNG' },
 ] as const;

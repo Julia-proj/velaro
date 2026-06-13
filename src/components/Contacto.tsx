@@ -3,9 +3,10 @@
 import { useTranslations } from 'next-intl';
 import { Reveal } from './Reveal';
 import { Icon } from './icons';
+import { SITE } from '@/lib/site';
 import styles from './Contacto.module.css';
 
-const WHATSAPP = '34600123456';
+const WHATSAPP = SITE.whatsapp;
 
 export default function Contacto() {
   const t = useTranslations('contacto');
@@ -44,11 +45,16 @@ export default function Contacto() {
           </a>
 
           <div className={styles.channels}>
-            <a href={`tel:+${WHATSAPP}`} className={styles.channel}>
+            <a
+              href={`https://wa.me/${WHATSAPP}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.channel}
+            >
               <span className={styles.cIcon}><Icon.whatsapp width={22} height={22} /></span>
               <span>
-                <em>WhatsApp / Tel.</em>
-                <strong>{t('phone')}</strong>
+                <em>WhatsApp</em>
+                <strong>{t('whatsapp')}</strong>
               </span>
             </a>
             <a href={`mailto:${t('email')}`} className={styles.channel}>
@@ -58,7 +64,7 @@ export default function Contacto() {
                 <strong>{t('email')}</strong>
               </span>
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={styles.channel}>
+            <a href={SITE.instagram} target="_blank" rel="noopener noreferrer" className={styles.channel}>
               <span className={styles.cIcon}><Icon.instagram width={22} height={22} /></span>
               <span>
                 <em>Instagram</em>

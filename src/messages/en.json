@@ -1,4 +1,11 @@
 {
+  "meta": {
+    "title": "Limpieza de Placas Solares en Madrid · Presupuesto Gratis",
+    "titleTemplate": "%s · Velaro Limpieza Exterior",
+    "description": "Limpieza exterior profesional en Madrid: patios, terrazas, fachadas, cubiertas, placas solares, garajes y muros. Equipos Kärcher, resultados que se notan. Presupuesto gratis y sin compromiso.",
+    "keywords": "limpieza exterior Madrid, limpieza de fachadas, limpieza de placas solares, limpieza de patios, limpieza de terrazas, limpieza de cubiertas y tejados, hidrolimpieza, limpieza con Kärcher, limpieza de garajes, limpieza de muros, empresa de limpieza Madrid",
+    "ogAlt": "Velaro — Limpieza exterior profesional en Madrid"
+  },
   "nav": {
     "inicio": "Inicio",
     "servicios": "Servicios",
@@ -191,6 +198,56 @@
     "email": "info@velaro.es",
     "phone": "+34 600 123 456",
     "instagram": "@velaro.cleaning"
+  },
+  "solar": {
+    "kicker": "Especialistas en placas solares",
+    "caption": "Placas solares",
+    "titleLine1": "Tus paneles rinden más",
+    "titleAccent": "limpios.",
+    "intro": "El polvo, el polen, la cal y los excrementos de aves reducen la producción de tus placas solares. Una limpieza profesional y segura recupera su eficiencia y protege tu inversión.",
+    "points": [
+      "Recupera hasta un 20 % de rendimiento perdido por suciedad",
+      "Agua desionizada: sin cal, sin marcas y sin residuos",
+      "Métodos seguros que no rayan ni dañan los paneles",
+      "Trabajamos sobre cubiertas, suelo y estructuras inclinadas",
+      "Limpieza periódica recomendada 1–2 veces al año"
+    ],
+    "stat1Value": "10 €",
+    "stat1Label": "por panel",
+    "stat2Value": "20 %",
+    "stat2Label": "más rendimiento",
+    "stat3Value": "1–2x",
+    "stat3Label": "al año recomendado",
+    "cta": "Calcular limpieza de placas",
+    "before": "Antes",
+    "after": "Después"
+  },
+  "faq": {
+    "kicker": "Preguntas frecuentes",
+    "titleLine1": "Resolvemos tus",
+    "titleAccent": "dudas.",
+    "items": [
+      {
+        "q": "¿Cada cuánto hay que limpiar las placas solares?",
+        "a": "Lo recomendable es realizar una limpieza profesional 1 o 2 veces al año. La frecuencia depende de la zona, la inclinación de los paneles y la cercanía a árboles, obras o caminos de tierra que aceleran la acumulación de suciedad."
+      },
+      {
+        "q": "¿Cuánto cuesta la limpieza de placas solares?",
+        "a": "Desde 10 € por panel, con un servicio mínimo de 120 €. Puedes obtener una estimación al instante en nuestra calculadora y confirmamos el precio final con una valoración gratuita y sin compromiso."
+      },
+      {
+        "q": "¿La limpieza puede dañar o rayar los paneles?",
+        "a": "No. Utilizamos agua desionizada y cepillos suaves específicos para placas solares, sin productos abrasivos. Es un método seguro que respeta la superficie y el recubrimiento de los paneles."
+      },
+      {
+        "q": "¿En qué zonas trabajáis?",
+        "a": "Damos servicio en Madrid y alrededores: Las Rozas, Pozuelo de Alarcón, Majadahonda, Boadilla del Monte y el resto de la Comunidad de Madrid."
+      },
+      {
+        "q": "¿El presupuesto tiene algún coste?",
+        "a": "No. El presupuesto es totalmente gratuito y sin compromiso. Atendemos también sábados y domingos para adaptarnos a tu disponibilidad."
+      }
+    ]
   },
   "footer": {
     "tagline": "Resultados que se ven. Calidad que permanece.",

@@ -11,12 +11,12 @@ import {
   PER_PANEL,
   type SurfaceKey,
 } from '@/lib/pricing';
+import { SITE } from '@/lib/site';
 import styles from './Calculator.module.css';
 
-const SURFACES: SurfaceKey[] = ['patios', 'fachadas', 'cubiertas', 'placas', 'garajes', 'muros'];
+const SURFACES: SurfaceKey[] = ['placas', 'patios', 'fachadas', 'cubiertas', 'garajes', 'muros'];
 
-// WhatsApp number in international format, no + or spaces
-const WHATSAPP = '34600123456';
+const WHATSAPP = SITE.whatsapp;
 
 // Slider config per measurement unit.
 const AREA = { min: 5, max: 500, step: 5, def: 40 };
@@ -42,8 +42,8 @@ function AnimatedNumber({ value }: { value: number }) {
 export default function Calculator() {
   const t = useTranslations('calculadora');
 
-  const [surface, setSurface] = useState<SurfaceKey>('patios');
-  const [quantity, setQuantity] = useState(AREA.def);
+  const [surface, setSurface] = useState<SurfaceKey>('placas');
+  const [quantity, setQuantity] = useState(PANELS.def);
   const [urgent, setUrgent] = useState(false);
 
   const isPanels = PER_PANEL[surface];

@@ -82,6 +82,39 @@
   place-items: center;
 }
 
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(1.2rem, 4vw, 2.6rem);
+  margin-top: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.statValue {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  letter-spacing: -0.02em;
+  color: var(--accent-bright);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.solarCta {
+  margin-top: 2.2rem;
+}
+
 .footnote {
   margin-top: 1.8rem;
   color: var(--ink-muted);
