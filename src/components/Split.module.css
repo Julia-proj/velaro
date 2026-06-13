@@ -25,6 +25,34 @@
   width: 100%;
 }
 
+/* Before/after gallery (Trabajos) */
+.galleryHead {
+  max-width: 620px;
+  margin: 0 auto clamp(2.2rem, 4vw, 3.4rem);
+  text-align: center;
+}
+
+.galleryHead .kicker {
+  margin-bottom: 1.1rem;
+}
+
+.galleryHead .lead {
+  margin-top: 1.2rem;
+  margin-inline: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: clamp(1rem, 2.2vw, 1.8rem);
+}
+
+@media (max-width: 420px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
 .points {
   list-style: none;
   margin-top: 2rem;

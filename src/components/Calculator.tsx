@@ -8,16 +8,19 @@ import { Icon } from './icons';
 import {
   calculateQuote,
   formatEUR,
+  PER_PANEL,
   type SurfaceKey,
-  type DirtKey,
 } from '@/lib/pricing';
 import styles from './Calculator.module.css';
 
 const SURFACES: SurfaceKey[] = ['patios', 'fachadas', 'cubiertas', 'placas', 'garajes', 'muros'];
-const DIRT: DirtKey[] = ['low', 'medium', 'high'];
 
 // WhatsApp number in international format, no + or spaces
 const WHATSAPP = '34600123456';
+
+// Slider config per measurement unit.
+const AREA = { min: 5, max: 500, step: 5, def: 40 };
+const PANELS = { min: 1, max: 60, step: 1, def: 12 };
 
 function AnimatedNumber({ value }: { value: number }) {
   return (
@@ -40,25 +43,33 @@ export default function Calculator() {
   const t = useTranslations('calculadora');
 
   const [surface, setSurface] = useState<SurfaceKey>('patios');
-  const [area, setArea] = useState(40);
-  const [dirt, setDirt] = useState<DirtKey>('medium');
+  const [quantity, setQuantity] = useState(AREA.def);
   const [urgent, setUrgent] = useState(false);
 
+  const isPanels = PER_PANEL[surface];
+  const cfg = isPanels ? PANELS : AREA;
+  const unit = isPanels ? t('panelUnit') : t('areaUnit');
+
   const quote = useMemo(
-    () => calculateQuote({ surface, area, dirt, urgent }),
-    [surface, area, dirt, urgent]
+    () => calculateQuote({ surface, quantity, urgent }),
+    [surface, quantity, urgent]
   );
+
+  const selectSurface = (s: SurfaceKey) => {
+    // Switching between m² and panels: reset to a sensible default.
+    if (PER_PANEL[s] !== isPanels) setQuantity(PER_PANEL[s] ? PANELS.def : AREA.def);
+    setSurface(s);
+  };
 
   const waText = useMemo(() => {
     const msg =
       `Hola Velaro, me gustaría un presupuesto.%0A` +
       `Superficie: ${t(`surfaces.${surface}`)}%0A` +
-      `Área: ${area} m²%0A` +
-      `Suciedad: ${t(`dirtLevels.${dirt}`)}%0A` +
+      `${isPanels ? 'Paneles' : 'Área'}: ${quantity} ${isPanels ? 'paneles' : 'm²'}%0A` +
       `Urgente: ${urgent ? 'Sí' : 'No'}%0A` +
       `Estimación web: ${formatEUR(quote.low)}–${formatEUR(quote.high)}`;
     return `https://wa.me/${WHATSAPP}?text=${msg}`;
-  }, [surface, area, dirt, urgent, quote, t]);
+  }, [surface, quantity, isPanels, urgent, quote, t]);
 
   return (
     <section id="presupuesto" className={`section ${styles.section}`}>
@@ -81,7 +92,7 @@ export default function Calculator() {
                   <button
                     key={s}
                     className={`${styles.chip} ${surface === s ? styles.chipActive : ''}`}
-                    onClick={() => setSurface(s)}
+                    onClick={() => selectSurface(s)}
                   >
                     {t(`surfaces.${s}`)}
                   </button>
@@ -89,43 +100,29 @@ export default function Calculator() {
               </div>
             </div>
 
-            {/* Area slider */}
+            {/* Quantity slider (m² or panels) */}
             <div className={styles.field}>
               <label className={styles.label}>
-                {t('labelArea')}
+                {isPanels ? t('labelPanels') : t('labelArea')}
                 <span className={styles.areaVal}>
-                  {area} {t('areaUnit')}
+                  {quantity} {unit}
                 </span>
               </label>
               <input
                 type="range"
-                min={5}
-                max={500}
-                step={5}
-                value={area}
-                onChange={(e) => setArea(Number(e.target.value))}
+                min={cfg.min}
+                max={cfg.max}
+                step={cfg.step}
+                value={quantity}
+                onChange={(e) => setQuantity(Number(e.target.value))}
                 className={styles.range}
-                style={{ '--pct': `${((area - 5) / 495) * 100}%` } as React.CSSProperties}
+                style={{
+                  '--pct': `${((quantity - cfg.min) / (cfg.max - cfg.min)) * 100}%`,
+                } as React.CSSProperties}
               />
               <div className={styles.rangeScale}>
-                <span>5 {t('areaUnit')}</span>
-                <span>500 {t('areaUnit')}</span>
-              </div>
-            </div>
-
-            {/* Dirt level */}
-            <div className={styles.field}>
-              <label className={styles.label}>{t('labelDirt')}</label>
-              <div className={styles.segments}>
-                {DIRT.map((d) => (
-                  <button
-                    key={d}
-                    className={`${styles.segment} ${dirt === d ? styles.segmentActive : ''}`}
-                    onClick={() => setDirt(d)}
-                  >
-                    {t(`dirtLevels.${d}`)}
-                  </button>
-                ))}
+                <span>{cfg.min} {unit}</span>
+                <span>{cfg.max} {unit}</span>
               </div>
             </div>
 
@@ -147,6 +144,8 @@ export default function Calculator() {
                 </button>
               </div>
             </div>
+
+            <p className={styles.priceNote}>{t('priceNote')}</p>
           </div>
 
           {/* Result */}

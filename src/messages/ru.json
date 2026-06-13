@@ -22,7 +22,15 @@
     "titleAccent": "se ve.",
     "subtitle": "Recuperamos la belleza original de cada superficie.",
     "before": "Antes",
-    "after": "Después"
+    "after": "Después",
+    "items": [
+      "Patios y terrazas",
+      "Terrazas",
+      "Placas solares",
+      "Placas solares",
+      "Garajes",
+      "Entradas y accesos"
+    ]
   },
   "services": {
     "kicker": "Servicios Premium",
@@ -124,7 +132,7 @@
     "subtitle": "Cada superficie es única. Obtén una estimación orientativa en segundos. El precio final se confirma tras una valoración sin compromiso.",
     "labelSurface": "Tipo de superficie",
     "labelArea": "Superficie aproximada",
-    "labelDirt": "Nivel de suciedad",
+    "labelPanels": "Número de paneles",
     "labelUrgency": "¿Necesitas servicio urgente?",
     "surfaces": {
       "patios": "Patios y terrazas",
@@ -134,11 +142,6 @@
       "garajes": "Garajes y entradas",
       "muros": "Muros y vallados"
     },
-    "dirtLevels": {
-      "low": "Ligera",
-      "medium": "Media",
-      "high": "Intensa"
-    },
     "urgency": {
       "no": "No, fecha flexible",
       "yes": "Sí, lo antes posible"
@@ -147,7 +150,9 @@
     "perJob": "para este trabajo",
     "disclaimer": "Estimación orientativa. El presupuesto definitivo se confirma con una valoración gratuita y sin compromiso.",
     "cta": "Solicitar presupuesto exacto por WhatsApp",
-    "areaUnit": "m²"
+    "areaUnit": "m²",
+    "panelUnit": "paneles",
+    "priceNote": "Servicio mínimo 120 € · Servicio urgente +20 %"
   },
   "reseñas": {
     "kicker": "Reseñas",

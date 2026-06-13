@@ -9,11 +9,13 @@ export function BeforeAfter({
   afterLabel,
   beforeSrc,
   afterSrc,
+  caption,
 }: {
   beforeLabel: string;
   afterLabel: string;
   beforeSrc?: string;
   afterSrc?: string;
+  caption?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState(52);
@@ -49,6 +51,8 @@ export function BeforeAfter({
         update(e.clientX);
       }}
     >
+      {caption && <span className={styles.caption}>{caption}</span>}
+
       <div className={styles.after}>
         <Photo alt={afterLabel} src={afterSrc} seed={1} />
         <span className={`${styles.label} ${styles.labelRight}`}>{afterLabel}</span>

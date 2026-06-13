@@ -2,8 +2,10 @@
  * Velaro pricing model — pure functions, no UI.
  * Tune these numbers freely; nothing else needs to change.
  *
- * Price = area(m²) × basePricePerM2[surface] × dirtMultiplier × urgencyMultiplier
- * Result is clamped to a minimum call-out fee and returned as a ± range.
+ * Price = quantity × unitPrice[surface] (clamped to a minimum call-out fee),
+ * then +20% if the job is urgent. Shown as a small ± range.
+ *
+ * `placas` (solar panels) is priced per panel; every other surface per m².
  */
 
 export type SurfaceKey =
@@ -14,33 +16,40 @@ export type SurfaceKey =
   | 'garajes'
   | 'muros';
 
-export type DirtKey = 'low' | 'medium' | 'high';
-
-// €/m² base rate per surface type
-export const BASE_PRICE_PER_M2: Record<SurfaceKey, number> = {
-  patios: 4.0,
-  fachadas: 6.0,
-  cubiertas: 7.5,
-  placas: 3.0,
-  garajes: 3.5,
-  muros: 4.5,
+// Unit price per surface (€/m², except `placas` which is €/panel).
+export const BASE_PRICE: Record<SurfaceKey, number> = {
+  patios: 5,
+  garajes: 5,
+  muros: 5,
+  fachadas: 7,
+  cubiertas: 7,
+  placas: 10, // €/panel
 };
 
-export const DIRT_MULTIPLIER: Record<DirtKey, number> = {
-  low: 1.0,
-  medium: 1.25,
-  high: 1.6,
+// Surfaces charged per solar panel instead of per m².
+export const PER_PANEL: Record<SurfaceKey, boolean> = {
+  patios: false,
+  fachadas: false,
+  cubiertas: false,
+  garajes: false,
+  muros: false,
+  placas: true,
 };
 
-export const URGENCY_MULTIPLIER = { no: 1.0, yes: 1.2 } as const;
+export const URGENCY_SURCHARGE = 0.2; // +20% for urgent service
+export const MIN_PRICE = 120; // minimum call-out (€)
+export const RANGE_SPREAD = 0.12; // ± shown as a range
 
-export const MIN_PRICE = 90; // minimum call-out (€)
-export const RANGE_SPREAD = 0.15; // ±15% shown as a range
+/** "10 €/panel" or "5 €/m²" for a given surface. */
+export function unitLabel(surface: SurfaceKey): string {
+  return PER_PANEL[surface]
+    ? `${BASE_PRICE[surface]} €/panel`
+    : `${BASE_PRICE[surface]} €/m²`;
+}
 
 export interface QuoteInput {
   surface: SurfaceKey;
-  area: number; // m²
-  dirt: DirtKey;
+  quantity: number; // m² or number of panels depending on the surface
   urgent: boolean;
 }
 
@@ -52,17 +61,12 @@ export interface QuoteResult {
 
 export function calculateQuote({
   surface,
-  area,
-  dirt,
+  quantity,
   urgent,
 }: QuoteInput): QuoteResult {
-  const raw =
-    area *
-    BASE_PRICE_PER_M2[surface] *
-    DIRT_MULTIPLIER[dirt] *
-    (urgent ? URGENCY_MULTIPLIER.yes : URGENCY_MULTIPLIER.no);
-
-  const mid = Math.max(MIN_PRICE, raw);
+  const raw = quantity * BASE_PRICE[surface];
+  const withMin = Math.max(MIN_PRICE, raw);
+  const mid = withMin * (urgent ? 1 + URGENCY_SURCHARGE : 1);
   const round = (n: number) => Math.round(n / 5) * 5;
 
   return {
