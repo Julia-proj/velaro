@@ -88,7 +88,7 @@
   border-radius: 10px;
   display: grid;
   place-items: center;
-  background: rgba(47, 129, 247, 0.12);
+  background: rgba(46, 111, 212, 0.14);
   color: var(--accent-bright);
 }
 
