@@ -30,6 +30,12 @@
   line-height: 1.6;
 }
 
+.areas {
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
 .col {
   display: flex;
   flex-direction: column;

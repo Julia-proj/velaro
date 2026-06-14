@@ -144,8 +144,6 @@ export default function Calculator() {
                 </button>
               </div>
             </div>
-
-            <p className={styles.priceNote}>{t('priceNote')}</p>
           </div>
 
           {/* Result */}

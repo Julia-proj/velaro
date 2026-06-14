@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <section id="inicio" className={styles.hero}>
       <div className={styles.bg}>
-        <Photo alt="Villa exterior premium" src="/images/IMG_8278.PNG" seed={3} className={styles.bgPhoto} />
+        <Photo alt="Limpieza exterior profesional de una vivienda en Madrid" src="/images/IMG_8278.PNG" seed={3} className={styles.bgPhoto} />
         <div className={styles.scrim} />
       </div>
 

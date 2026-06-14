@@ -4,7 +4,6 @@ import { useTranslations } from 'next-intl';
 import { Reveal } from './Reveal';
 import { Photo } from './Photo';
 import { Icon } from './icons';
-import { unitLabel } from '@/lib/pricing';
 import styles from './Services.module.css';
 
 const SERVICES = [
@@ -46,7 +45,6 @@ export default function Services() {
                       seed={s.seed}
                       className={styles.mediaPhoto}
                     />
-                    <span className={styles.price}>{unitLabel(s.key)}</span>
                   </div>
                   <div className={styles.body}>
                     <span className={styles.icon}>

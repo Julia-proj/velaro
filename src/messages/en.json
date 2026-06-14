@@ -134,8 +134,8 @@
   },
   "calculadora": {
     "kicker": "Presupuesto al instante",
-    "titleLine1": "Calcula tu",
-    "titleAccent": "presupuesto.",
+    "titleLine1": "Calcula tu precio",
+    "titleAccent": "exacto.",
     "subtitle": "Indica la superficie y obtén el precio al instante, sin sorpresas. Confirmamos los detalles con una valoración gratuita.",
     "labelSurface": "Tipo de superficie",
     "labelArea": "Superficie aproximada",
@@ -166,6 +166,7 @@
     "titleLine1": "Tarifas",
     "titleAccent": "transparentes.",
     "subtitle": "Sin sorpresas: estos son nuestros precios por tipo de superficie.",
+    "featured": "Más solicitado",
     "min": "Servicio mínimo",
     "minValue": "120 €",
     "urgent": "Servicio urgente",
@@ -262,6 +263,7 @@
   },
   "footer": {
     "tagline": "Resultados que se ven. Calidad que permanece.",
+    "areasLabel": "Zonas de servicio",
     "rights": "Todos los derechos reservados.",
     "nav": "Navegación",
     "contact": "Contacto",

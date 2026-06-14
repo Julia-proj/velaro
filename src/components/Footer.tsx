@@ -19,6 +19,9 @@ export default function Footer() {
         <div className={styles.brand}>
           <span className={styles.logo}>VELARO</span>
           <span className={styles.tagline}>{t('tagline')}</span>
+          <span className={styles.areas}>
+            {t('areasLabel')}: {SITE.areaServed.slice(0, 5).join(' · ')}
+          </span>
         </div>
 
         <div className={styles.col}>
