@@ -25,20 +25,20 @@ export default function Footer() {
         </div>
 
         <div className={styles.col}>
-          <h4>{t('nav')}</h4>
+          <h3>{t('nav')}</h3>
           {NAV.map((n) => (
             <Link key={n} href={`/#${n}`}>{tn(n)}</Link>
           ))}
         </div>
 
         <div className={styles.col}>
-          <h4>{t('contact')}</h4>
+          <h3>{t('contact')}</h3>
           <a href={`mailto:${tc('email')}`}>{tc('email')}</a>
           <a href={`https://wa.me/${SITE.whatsapp}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
 
         <div className={styles.col}>
-          <h4>{t('social')}</h4>
+          <h3>{t('social')}</h3>
           <a href={SITE.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>

@@ -10,7 +10,7 @@
   place-items: center;
   background: linear-gradient(180deg, var(--accent-bright), var(--accent-deep));
   color: #fff;
-  box-shadow: 0 14px 34px -10px var(--accent-glow);
+  box-shadow: 0 14px 30px -12px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 

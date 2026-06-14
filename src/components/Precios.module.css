@@ -38,7 +38,7 @@
 
 .featured {
   border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent-glow), var(--shadow-card);
+  box-shadow: var(--shadow-card);
 }
 
 .star {
@@ -53,7 +53,6 @@
   background: linear-gradient(180deg, var(--accent-bright), var(--accent-deep));
   padding: 0.32rem 0.65rem;
   border-radius: 999px;
-  box-shadow: 0 8px 18px -10px var(--accent-glow);
 }
 
 .icon {

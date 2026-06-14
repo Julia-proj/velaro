@@ -6,3 +6,9 @@ out
 *.log
 .vercel
 next-env.d.ts
+
+# impeccable design tooling (local only)
+.agents/
+.cursor/
+.kiro/
+.claude/

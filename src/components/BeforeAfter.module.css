@@ -24,7 +24,6 @@
   border-radius: 999px;
   color: #fff;
   background: linear-gradient(180deg, var(--accent-bright), var(--accent-deep));
-  box-shadow: 0 8px 22px -12px var(--accent-glow);
 }
 
 .after,

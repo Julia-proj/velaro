@@ -15,8 +15,8 @@
     "presupuesto": "Presupuesto"
   },
   "hero": {
-    "kicker": "Limpieza exterior profesional · Madrid",
-    "titleLine1": "Limpieza de placas solares",
+    "kicker": "Limpieza exterior · Madrid",
+    "titleLine1": "Limpieza de placas solares ",
     "titleLine2Pre": "y exteriores en ",
     "titleLine2Accent": "Madrid",
     "subtitle": "Recuperamos cada superficie con equipos profesionales. Precios claros desde 5 €/m² y presupuesto gratis.",
@@ -32,7 +32,7 @@
     ]
   },
   "compare": {
-    "kicker": "Resultados que hablan por sí mismos",
+    "kicker": "Antes y después",
     "titleLine1": "La diferencia",
     "titleAccent": "se ve.",
     "subtitle": "Recuperamos la belleza original de cada superficie.",
@@ -164,7 +164,7 @@
     "estimateLabel": "Precio",
     "perJob": "según la superficie indicada",
     "disclaimer": "Precio calculado con los datos que indicas. El servicio mínimo es de 120 €. Confirmamos la superficie final sin compromiso.",
-    "cta": "Solicitar presupuesto exacto por WhatsApp",
+    "cta": "Pedir presupuesto por WhatsApp",
     "areaUnit": "m²",
     "panelUnit": "paneles",
     "priceNote": "Servicio mínimo 120 € · Servicio urgente +20 %"
@@ -220,7 +220,7 @@
     "instagram": "@velaro.cleaning"
   },
   "solar": {
-    "kicker": "Especialistas en placas solares",
+    "kicker": "Especialistas solares",
     "caption": "Placas solares",
     "titleLine1": "Tus paneles rinden más",
     "titleAccent": "limpios.",
