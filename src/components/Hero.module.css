@@ -42,15 +42,18 @@
 .title {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: clamp(2.1rem, 1.2rem + 3.4vw, 4.2rem);
-  line-height: 1.07;
+  font-size: clamp(1.95rem, 1.1rem + 3.2vw, 4.2rem);
+  line-height: 1.08;
   letter-spacing: -0.03em;
   margin-top: 1.4rem;
   display: flex;
   flex-direction: column;
   max-width: 100%;
   overflow-wrap: break-word;
-  hyphens: auto;
+}
+
+.title span {
+  text-wrap: balance;
 }
 
 .title .accent {
@@ -75,38 +78,27 @@
 
 .tags {
   display: flex;
-  align-items: center;
-  gap: 0;
-  margin: 2.2rem 0 2.6rem;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 2rem 0 2.4rem;
 }
 
 .tag {
   display: inline-flex;
-  flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  padding: 0 1.4rem;
-  font-size: 0.66rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--surface-line-strong);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
   color: var(--ink-soft);
-  font-weight: 600;
-}
-
-.tag:first-of-type {
-  padding-left: 0;
 }
 
 .tagIcon {
-  color: var(--ink-soft);
+  color: var(--accent-bright);
   display: grid;
   place-items: center;
-}
-
-.sep {
-  width: 1px;
-  height: 32px;
-  background: var(--surface-line-strong);
   flex-shrink: 0;
 }
 
@@ -144,18 +136,14 @@
   .scrollHint { display: none; }
 
   .tags {
-    flex-wrap: wrap;
-    gap: 0.5rem 0;
-    margin: 1.8rem 0 2.2rem;
+    gap: 0.5rem;
+    margin: 1.6rem 0 2rem;
   }
 
   .tag {
-    padding: 0 0.85rem;
-    font-size: 0.58rem;
-    letter-spacing: 0.16em;
+    padding: 0.45rem 0.8rem;
+    font-size: 0.74rem;
   }
-
-  .sep { height: 24px; }
 }
 
 /* Short / landscape screens: don't force full height (avoids content overflow) */

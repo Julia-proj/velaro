@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale, getMessages, getTranslations } from 'next-intl/server';
-import { Geist } from 'next/font/google';
+import { Geist, Bricolage_Grotesque } from 'next/font/google';
 import { locales, defaultLocale, type Locale } from '@/i18n/config';
 import { SITE } from '@/lib/site';
 import { JsonLd } from '@/components/JsonLd';
@@ -12,6 +12,13 @@ const geist = Geist({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
   variable: '--font-geist',
+  display: 'swap',
+});
+
+const bricolage = Bricolage_Grotesque({
+  subsets: ['latin'],
+  weight: ['500', '600', '700'],
+  variable: '--font-display-brand',
   display: 'swap',
 });
 
@@ -101,7 +108,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${geist.variable}`}>
+    <html lang={locale} className={`${geist.variable} ${bricolage.variable}`}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}

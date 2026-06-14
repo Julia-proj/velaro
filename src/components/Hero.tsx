@@ -1,6 +1,5 @@
 'use client';
 
-import { Fragment } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
@@ -76,13 +75,10 @@ export default function Hero() {
             {tags.map((tag, i) => {
               const I = TAG_ICONS[i % TAG_ICONS.length];
               return (
-                <Fragment key={tag}>
-                  {i > 0 && <i className={styles.sep} />}
-                  <span className={styles.tag}>
-                    <span className={styles.tagIcon}><I width={20} height={20} /></span>
-                    <span>{tag}</span>
-                  </span>
-                </Fragment>
+                <span key={tag} className={styles.tag}>
+                  <span className={styles.tagIcon}><I width={18} height={18} /></span>
+                  {tag}
+                </span>
               );
             })}
           </motion.div>

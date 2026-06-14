@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Reveal } from './Reveal';
 import { Icon } from './icons';
+import Calculator from './Calculator';
 import { BASE_PRICE, PER_PANEL, type SurfaceKey } from '@/lib/pricing';
 import styles from './Precios.module.css';
 
@@ -58,6 +59,8 @@ export default function Precios() {
         </Reveal>
 
         <p className={styles.note}>{t('note')}</p>
+
+        <Calculator />
       </div>
     </section>
   );

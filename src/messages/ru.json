@@ -86,14 +86,10 @@
     "titleAccent": "se nota.",
     "intro": "Tratamos cada propiedad como si fuera nuestra. Nuestro objetivo no es simplemente limpiar, sino recuperar la mejor versión de cada superficie, aportando valor estético, protección y una imagen impecable a tu hogar o negocio.",
     "points": [
-      "Atención personalizada",
-      "Presupuestos claros y sin compromiso",
-      "Acabados premium",
+      "Atención personalizada y trato cercano",
+      "Acabados premium en cada superficie",
       "Resultados visibles desde la primera limpieza",
-      "Equipamiento profesional de última generación",
-      "Máximo cuidado de cada superficie",
-      "Puntualidad y profesionalidad",
-      "Servicio disponible de lunes a domingo"
+      "Puntualidad y profesionalidad"
     ]
   },
   "tecnologia": {
@@ -105,9 +101,7 @@
     "points": [
       "Equipamiento Kärcher Professional",
       "Productos de limpieza de alta calidad",
-      "Menor consumo de agua",
       "Máxima eficacia en manchas difíciles",
-      "Limpieza segura para cada superficie",
       "Resultados duraderos"
     ],
     "footnote": "Nuestros equipos permiten eliminar incluso las manchas más difíciles producidas por años de acumulación de suciedad, humedad, moho, polvo, grasa y contaminación ambiental."
@@ -179,7 +173,7 @@
     "minValue": "120 €",
     "urgent": "Servicio urgente",
     "urgentValue": "+20 %",
-    "note": "El precio final depende de la superficie a tratar. Presupuesto gratis y sin compromiso."
+    "note": "El precio final depende de la superficie a tratar y se confirma en una valoración in situ."
   },
   "reseñas": {
     "kicker": "Reseñas",

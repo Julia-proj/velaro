@@ -16,7 +16,7 @@
   --accent-glow: rgba(46, 111, 212, 0.18);
 
   /* ===== Type scale ===== */
-  --font-display: var(--font-geist), system-ui, sans-serif;
+  --font-display: var(--font-display-brand), var(--font-geist), system-ui, sans-serif;
   --font-sans: var(--font-geist), system-ui, sans-serif;
 
   --step--1: clamp(0.78rem, 0.74rem + 0.2vw, 0.88rem);

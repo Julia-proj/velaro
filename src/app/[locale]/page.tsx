@@ -9,7 +9,6 @@ import Precios from '@/components/Precios';
 import Compromiso from '@/components/Compromiso';
 import Tecnologia from '@/components/Tecnologia';
 import Proceso from '@/components/Proceso';
-import Calculator from '@/components/Calculator';
 import Faq from '@/components/Faq';
 import Contacto from '@/components/Contacto';
 import Footer from '@/components/Footer';
@@ -33,7 +32,6 @@ export default async function Home({
         <SolarSpotlight />
         <CompareSection />
         <Precios />
-        <Calculator />
         <Compromiso />
         <Tecnologia />
         <Proceso />

@@ -72,17 +72,15 @@ export default function Calculator() {
   }, [surface, quantity, isPanels, urgent, price, t]);
 
   return (
-    <section id="presupuesto" className={`section ${styles.section}`}>
-      <div className="container">
-        <Reveal className={styles.head}>
-          <span className="kicker">{t('kicker')}</span>
-          <h2 className="display">
-            {t('titleLine1')} <span className="accent">{t('titleAccent')}</span>
-          </h2>
-          <p className="lead">{t('subtitle')}</p>
-        </Reveal>
+    <div id="presupuesto" className={styles.calc}>
+      <Reveal className={styles.calcHead}>
+        <h3 className={styles.calcTitle}>
+          {t('titleLine1')} <span className="accent">{t('titleAccent')}</span>
+        </h3>
+        <p className={styles.calcSub}>{t('subtitle')}</p>
+      </Reveal>
 
-        <Reveal delay={0.1} className={styles.panel}>
+      <Reveal delay={0.1} className={styles.panel}>
           <div className={styles.controls}>
             {/* Surface type */}
             <div className={styles.field}>
@@ -168,7 +166,6 @@ export default function Calculator() {
             <p className={styles.disclaimer}>{t('disclaimer')}</p>
           </aside>
         </Reveal>
-      </div>
-    </section>
+    </div>
   );
 }
