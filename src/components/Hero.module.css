@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding-top: 6rem;
+  padding-top: clamp(5.5rem, 11vh, 7.5rem);
+  padding-bottom: clamp(3rem, 8vh, 5rem);
 }
 
 .bg {
@@ -35,17 +36,21 @@
 
 .content {
   max-width: 640px;
+  width: 100%;
 }
 
 .title {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: var(--step-4);
-  line-height: 1.06;
+  font-size: clamp(2.3rem, 1.4rem + 4.2vw, 5.2rem);
+  line-height: 1.07;
   letter-spacing: -0.03em;
   margin-top: 1.4rem;
   display: flex;
   flex-direction: column;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .title .accent {
@@ -151,4 +156,17 @@
   }
 
   .sep { height: 24px; }
+}
+
+/* Short / landscape screens: don't force full height (avoids content overflow) */
+@media (max-height: 640px) {
+  .hero {
+    min-height: auto;
+    padding-top: 6.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .scrollHint {
+    display: none;
+  }
 }
