@@ -8,7 +8,7 @@
 
   --ink: #f4f6fb;
   --ink-soft: #aeb6c4;
-  --ink-muted: #6b7484;
+  --ink-muted: #828c9e;
 
   --accent: #2e6fd4;
   --accent-bright: #5f93df;
@@ -46,6 +46,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 body {
@@ -114,6 +115,8 @@ img {
   color: var(--accent-bright);
   font-weight: 600;
   display: inline-block;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .display {
@@ -122,6 +125,7 @@ img {
   line-height: 1.06;
   letter-spacing: -0.03em;
   font-size: var(--step-3);
+  overflow-wrap: break-word;
 }
 
 .display .accent {
@@ -133,6 +137,7 @@ img {
   font-size: var(--step-1);
   max-width: 42ch;
   line-height: 1.55;
+  overflow-wrap: break-word;
 }
 
 .btn {

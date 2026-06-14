@@ -1,0 +1,38 @@
+.band {
+  border-top: 1px solid var(--surface-line);
+  border-bottom: 1px solid var(--surface-line);
+  background: var(--bg-elevated);
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 2.2rem;
+  padding-block: 1.1rem;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.item :global(svg) {
+  color: var(--accent-bright);
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .inner {
+    gap: 0.7rem 1.3rem;
+    padding-block: 0.95rem;
+  }
+
+  .item {
+    font-size: 0.78rem;
+  }
+}

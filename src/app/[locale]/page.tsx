@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import TrustBand from '@/components/TrustBand';
 import CompareSection from '@/components/CompareSection';
 import Services from '@/components/Services';
 import SolarSpotlight from '@/components/SolarSpotlight';
@@ -9,7 +10,6 @@ import Compromiso from '@/components/Compromiso';
 import Tecnologia from '@/components/Tecnologia';
 import Proceso from '@/components/Proceso';
 import Calculator from '@/components/Calculator';
-import Resenas from '@/components/Resenas';
 import Faq from '@/components/Faq';
 import Contacto from '@/components/Contacto';
 import Footer from '@/components/Footer';
@@ -28,6 +28,7 @@ export default async function Home({
       <Header />
       <main>
         <Hero />
+        <TrustBand />
         <Services />
         <SolarSpotlight />
         <CompareSection />
@@ -36,7 +37,6 @@ export default async function Home({
         <Compromiso />
         <Tecnologia />
         <Proceso />
-        <Resenas />
         <Faq />
         <Contacto />
       </main>

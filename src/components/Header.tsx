@@ -131,7 +131,7 @@ export default function Header() {
               </div>
             )}
           </div>
-          <Link href="/#contacto" className={`btn btn-ghost ${styles.cta}`}>
+          <Link href="/#presupuesto" className={`btn btn-ghost ${styles.cta}`}>
             {t('presupuesto')}
             <span className="arrow">→</span>
           </Link>
