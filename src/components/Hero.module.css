@@ -136,13 +136,16 @@
   .scrollHint { display: none; }
 
   .tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
     margin: 1.6rem 0 2rem;
   }
 
   .tag {
-    padding: 0.45rem 0.8rem;
-    font-size: 0.74rem;
+    justify-content: center;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.76rem;
   }
 }
 
