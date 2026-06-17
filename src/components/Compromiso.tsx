@@ -16,7 +16,7 @@ export default function Compromiso() {
     <section id="nosotros" className={`section ${styles.section}`}>
       <div className={`container ${styles.split} ${styles.reverse}`}>
         <Reveal className={styles.visual} y={20}>
-          <div style={{ aspectRatio: '4 / 3', borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--surface-line)', boxShadow: 'var(--shadow-card)' }}>
+          <div style={{ position: 'relative', aspectRatio: '4 / 3', borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--surface-line)', boxShadow: 'var(--shadow-card)' }}>
             <Photo alt="Terraza premium al atardecer" src="/images/IMG_8281.PNG" seed={4} />
           </div>
         </Reveal>

@@ -13,6 +13,7 @@ import Faq from '@/components/Faq';
 import Contacto from '@/components/Contacto';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+import MobileCta from '@/components/MobileCta';
 
 export default async function Home({
   params,
@@ -40,6 +41,7 @@ export default async function Home({
       </main>
       <Footer />
       <FloatingWhatsApp />
+      <MobileCta />
     </>
   );
 }

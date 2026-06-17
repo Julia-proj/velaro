@@ -184,6 +184,13 @@ img {
   transform: translateX(4px);
 }
 
+/* Room for the sticky mobile CTA bar */
+@media (max-width: 640px) {
+  body {
+    padding-bottom: 72px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
