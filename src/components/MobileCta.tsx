@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import { Icon } from './icons';
 import { SITE } from '@/lib/site';
 import styles from './MobileCta.module.css';
@@ -10,9 +11,9 @@ export default function MobileCta() {
 
   return (
     <div className={styles.bar}>
-      <a href="#presupuesto" className={`btn btn-primary ${styles.primary}`}>
+      <Link href="/#presupuesto" className={`btn btn-primary ${styles.primary}`}>
         {t('cta')}
-      </a>
+      </Link>
       <a
         href={`https://wa.me/${SITE.whatsapp}`}
         target="_blank"

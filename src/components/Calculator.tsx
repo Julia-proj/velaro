@@ -84,8 +84,8 @@ export default function Calculator() {
           <div className={styles.controls}>
             {/* Surface type */}
             <div className={styles.field}>
-              <label className={styles.label}>{t('labelSurface')}</label>
-              <div className={styles.chips}>
+              <span className={styles.label} id="calc-surface-label">{t('labelSurface')}</span>
+              <div className={styles.chips} role="group" aria-labelledby="calc-surface-label">
                 {SURFACES.map((s) => (
                   <button
                     key={s}
@@ -100,18 +100,21 @@ export default function Calculator() {
 
             {/* Quantity slider (m² or panels) */}
             <div className={styles.field}>
-              <label className={styles.label}>
+              <label className={styles.label} htmlFor="calc-qty">
                 {isPanels ? t('labelPanels') : t('labelArea')}
                 <span className={styles.areaVal}>
                   {quantity} {unit}
                 </span>
               </label>
               <input
+                id="calc-qty"
                 type="range"
                 min={cfg.min}
                 max={cfg.max}
                 step={cfg.step}
                 value={quantity}
+                aria-label={isPanels ? t('labelPanels') : t('labelArea')}
+                aria-valuetext={`${quantity} ${unit}`}
                 onChange={(e) => setQuantity(Number(e.target.value))}
                 className={styles.range}
                 style={{
@@ -126,8 +129,8 @@ export default function Calculator() {
 
             {/* Urgency */}
             <div className={styles.field}>
-              <label className={styles.label}>{t('labelUrgency')}</label>
-              <div className={styles.segments}>
+              <span className={styles.label} id="calc-urgency-label">{t('labelUrgency')}</span>
+              <div className={styles.segments} role="group" aria-labelledby="calc-urgency-label">
                 <button
                   className={`${styles.segment} ${!urgent ? styles.segmentActive : ''}`}
                   onClick={() => setUrgent(false)}
