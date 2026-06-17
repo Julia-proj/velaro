@@ -33,6 +33,7 @@ export default function Footer() {
 
         <div className={styles.col}>
           <h3>{t('contact')}</h3>
+          <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a>
           <a href={`mailto:${tc('email')}`}>{tc('email')}</a>
           <a href={`https://wa.me/${SITE.whatsapp}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>

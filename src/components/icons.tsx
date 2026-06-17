@@ -68,6 +68,9 @@ export const Icon = {
   mail: (p: SVGProps<SVGSVGElement>) => (
     <svg {...base} {...p}><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
   ),
+  phone: (p: SVGProps<SVGSVGElement>) => (
+    <svg {...base} {...p}><path d="M4 5a1 1 0 0 1 1-1h3l1.5 4-2 1.2a12 12 0 0 0 5.3 5.3l1.2-2 4 1.5v3a1 1 0 0 1-1 1A16 16 0 0 1 4 5Z" /></svg>
+  ),
   instagram: (p: SVGProps<SVGSVGElement>) => (
     <svg {...base} {...p}><rect x="4" y="4" width="16" height="16" rx="4.5" /><circle cx="12" cy="12" r="3.5" /><circle cx="17" cy="7" r="0.6" fill="currentColor" /></svg>
   ),

@@ -5,14 +5,14 @@
 export const SITE = {
   name: 'Velaro',
   legalName: 'Velaro Exterior Cleaning',
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://velaro.es').replace(/\/+$/, ''),
-  email: 'info@velaro.es',
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://velaroexterior.es').replace(/\/+$/, ''),
+  email: 'info@velaroexterior.es',
 
   // ── Contacto ───────────────────────────────────────────────
-  // TODO: cuando tengáis el número real de WhatsApp, cámbialo SOLO aquí
-  // (se propaga a todos los botones y enlaces) y pon hasPhone: true.
-  whatsapp: '34600123456', // formato internacional sin + ni espacios — PLACEHOLDER
-  hasPhone: false, // aún no hay número público de teléfono
+  whatsapp: '34624813480', // formato internacional sin + ni espacios
+  phone: '+34624813480',
+  phoneDisplay: '+34 624 813 480',
+  hasPhone: true,
 
   instagram: 'https://www.instagram.com/velaro.cleaning',
   // Local SEO signals

@@ -27,7 +27,7 @@ export async function JsonLd({ locale }: { locale: string }) {
     name: SITE.name,
     legalName: SITE.legalName,
     url: base,
-    // telephone se añadirá cuando haya un número real (evita datos falsos en Google)
+    telephone: SITE.phone,
     email: SITE.email,
     image: ogImage,
     logo: `${base}/icon.svg`,

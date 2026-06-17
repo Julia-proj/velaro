@@ -211,8 +211,9 @@
       "Professional, friendly service"
     ],
     "whatsapp": "Message us on WhatsApp",
-    "email": "info@velaro.es",
-    "phone": "+34 600 123 456",
+    "phoneLabel": "Phone",
+    "email": "info@velaroexterior.es",
+    "phone": "+34 624 813 480",
     "instagram": "@velaro.cleaning"
   },
   "solar": {

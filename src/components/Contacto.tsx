@@ -57,6 +57,13 @@ export default function Contacto() {
                 <strong>{t('whatsapp')}</strong>
               </span>
             </a>
+            <a href={`tel:${SITE.phone}`} className={styles.channel}>
+              <span className={styles.cIcon}><Icon.phone width={22} height={22} /></span>
+              <span>
+                <em>{t('phoneLabel')}</em>
+                <strong>{SITE.phoneDisplay}</strong>
+              </span>
+            </a>
             <a href={`mailto:${t('email')}`} className={styles.channel}>
               <span className={styles.cIcon}><Icon.mail width={22} height={22} /></span>
               <span>
