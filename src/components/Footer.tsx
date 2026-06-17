@@ -37,11 +37,6 @@ export default function Footer() {
           <a href={`mailto:${tc('email')}`}>{tc('email')}</a>
           <a href={`https://wa.me/${SITE.whatsapp}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
-
-        <div className={styles.col}>
-          <h3>{t('social')}</h3>
-          <a href={SITE.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
-        </div>
       </div>
 
       <div className={styles.bottom}>

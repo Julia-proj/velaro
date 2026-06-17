@@ -71,13 +71,6 @@ export default function Contacto() {
                 <strong>{t('email')}</strong>
               </span>
             </a>
-            <a href={SITE.instagram} target="_blank" rel="noopener noreferrer" className={styles.channel}>
-              <span className={styles.cIcon}><Icon.instagram width={22} height={22} /></span>
-              <span>
-                <em>Instagram</em>
-                <strong>{t('instagram')}</strong>
-              </span>
-            </a>
           </div>
         </Reveal>
       </div>

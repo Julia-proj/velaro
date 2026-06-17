@@ -13,8 +13,6 @@ export const SITE = {
   phone: '+34624813480',
   phoneDisplay: '+34 624 813 480',
   hasPhone: true,
-
-  instagram: 'https://www.instagram.com/velaro.cleaning',
   // Local SEO signals
   locality: 'Madrid',
   region: 'Comunidad de Madrid',

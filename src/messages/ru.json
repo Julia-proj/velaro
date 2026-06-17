@@ -213,8 +213,7 @@
     "whatsapp": "Напишите нам в WhatsApp",
     "phoneLabel": "Телефон",
     "email": "info@velaroexterior.es",
-    "phone": "+34 624 813 480",
-    "instagram": "@velaro.cleaning"
+    "phone": "+34 624 813 480"
   },
   "solar": {
     "kicker": "Специалисты по панелям",
@@ -271,7 +270,6 @@
     "areasLabel": "Районы обслуживания",
     "rights": "Все права защищены.",
     "nav": "Навигация",
-    "contact": "Контакты",
-    "social": "Мы в соцсетях"
+    "contact": "Контакты"
   }
 }

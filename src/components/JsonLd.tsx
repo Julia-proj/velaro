@@ -60,7 +60,6 @@ export async function JsonLd({ locale }: { locale: string }) {
       opens: '08:00',
       closes: '20:00',
     },
-    sameAs: [SITE.instagram],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Servicios de limpieza exterior',
