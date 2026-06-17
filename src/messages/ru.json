@@ -1,274 +1,276 @@
 {
   "meta": {
-    "title": "Limpieza de Placas Solares en Madrid · Presupuesto Gratis",
-    "titleTemplate": "%s · Velaro Limpieza Exterior",
-    "description": "Limpieza exterior profesional en Madrid: patios, terrazas, fachadas, cubiertas, placas solares, garajes y muros. Equipos Kärcher, resultados que se notan. Presupuesto gratis y sin compromiso.",
-    "keywords": "limpieza exterior Madrid, limpieza de fachadas, limpieza de placas solares, limpieza de patios, limpieza de terrazas, limpieza de cubiertas y tejados, hidrolimpieza, limpieza con Kärcher, limpieza de garajes, limpieza de muros, empresa de limpieza Madrid",
-    "ogAlt": "Velaro — Limpieza exterior profesional en Madrid"
+    "title": "Чистка солнечных панелей в Мадриде · Бесплатная смета",
+    "titleTemplate": "%s · Velaro",
+    "description": "Профессиональная наружная чистка в Мадриде: патио, террасы, фасады, крыши, солнечные панели, гаражи и заборы. Оборудование Kärcher, заметный результат. Бесплатная смета без обязательств.",
+    "keywords": "чистка фасадов Мадрид, мойка солнечных панелей, чистка патио, чистка террас, чистка крыш, мойка под давлением, Kärcher, чистка гаражей, наружная чистка Мадрид, клининг Мадрид",
+    "ogAlt": "Velaro — профессиональная наружная чистка в Мадриде"
   },
   "nav": {
-    "inicio": "Inicio",
-    "servicios": "Servicios",
-    "nosotros": "Nosotros",
-    "trabajos": "Trabajos",
-    "contacto": "Contacto",
-    "presupuesto": "Presupuesto"
+    "inicio": "Главная",
+    "servicios": "Услуги",
+    "nosotros": "О нас",
+    "trabajos": "Работы",
+    "contacto": "Контакты",
+    "presupuesto": "Смета"
   },
   "hero": {
-    "kicker": "Limpieza exterior · Madrid",
-    "titleLine1": "Limpieza de placas solares ",
-    "titleLine2Pre": "y exteriores en ",
-    "titleLine2Accent": "Madrid",
-    "subtitle": "Recuperamos cada superficie con equipos profesionales. Precios claros desde 5 €/m² y presupuesto gratis.",
-    "tags": ["Placas solares", "Patios", "Fachadas", "Cubiertas"],
-    "cta": "Solicitar presupuesto"
+    "kicker": "Наружная чистка · Мадрид",
+    "titleLine1": "Чистка солнечных панелей ",
+    "titleLine2Pre": "и поверхностей в ",
+    "titleLine2Accent": "Мадриде",
+    "subtitle": "Возвращаем чистоту любой поверхности профессиональным оборудованием. Понятные цены от 5 €/м² и бесплатная смета.",
+    "tags": ["Солнечные панели", "Патио", "Фасады", "Крыши"],
+    "cta": "Запросить смету"
   },
   "trust": {
     "items": [
-      "Presupuesto gratis",
-      "Equipos Kärcher",
-      "Madrid y alrededores",
-      "Lunes a domingo"
+      "Бесплатная смета",
+      "Оборудование Kärcher",
+      "Мадрид и пригороды",
+      "С понедельника по воскресенье"
     ]
   },
   "compare": {
-    "kicker": "Antes y después",
-    "titleLine1": "La diferencia",
-    "titleAccent": "se ve.",
-    "subtitle": "Recuperamos la belleza original de cada superficie.",
-    "before": "Antes",
-    "after": "Después",
+    "kicker": "До и после",
+    "titleLine1": "Разница",
+    "titleAccent": "видна.",
+    "subtitle": "Возвращаем первоначальную красоту каждой поверхности.",
+    "before": "До",
+    "after": "После",
     "items": [
-      "Patios y terrazas",
-      "Terrazas",
-      "Placas solares",
-      "Placas solares",
-      "Garajes",
-      "Entradas y accesos"
+      "Патио и террасы",
+      "Террасы",
+      "Солнечные панели",
+      "Солнечные панели",
+      "Гаражи",
+      "Въезды и подъезды"
     ]
   },
   "services": {
-    "kicker": "Servicios Premium",
-    "titleLine1": "Cuidamos cada",
-    "titleLine2Pre": "detalle ",
-    "titleLine2Accent": "exterior.",
-    "subtitle": "Soluciones profesionales para todo tipo de superficies. Resultados impecables, duraderos y seguros.",
+    "kicker": "Премиум-услуги",
+    "titleLine1": "Заботимся о каждой",
+    "titleLine2Pre": "детали ",
+    "titleLine2Accent": "снаружи.",
+    "subtitle": "Профессиональные решения для любых поверхностей. Безупречный, долговечный и безопасный результат.",
     "items": {
       "patios": {
-        "title": "Patios y terrazas",
-        "desc": "Recuperamos el aspecto original de pavimentos, porcelánicos, piedra natural, hormigón impreso y superficies exteriores."
+        "title": "Патио и террасы",
+        "desc": "Возвращаем первоначальный вид брусчатке, керамограниту, натуральному камню, печатному бетону и другим наружным поверхностям."
       },
       "fachadas": {
-        "title": "Fachadas",
-        "desc": "Eliminamos suciedad, polvo, contaminación, manchas y residuos acumulados para devolver a tu fachada una imagen limpia y cuidada."
+        "title": "Фасады",
+        "desc": "Удаляем грязь, пыль, загрязнения, пятна и накопившийся налёт, возвращая фасаду чистый и ухоженный вид."
       },
       "cubiertas": {
-        "title": "Cubiertas y tejados",
-        "desc": "Retiramos musgo, suciedad, hojas y residuos que afectan la estética y pueden acelerar el deterioro de la cubierta."
+        "title": "Крыши",
+        "desc": "Удаляем мох, грязь, листья и мусор, которые портят вид и ускоряют разрушение кровли."
       },
       "placas": {
-        "title": "Placas solares",
-        "desc": "La acumulación de polvo y suciedad reduce el rendimiento de los paneles. Realizamos limpiezas seguras para ayudar a mantener su máxima eficiencia."
+        "title": "Солнечные панели",
+        "desc": "Накопление пыли и грязи снижает выработку панелей. Выполняем безопасную мойку, чтобы сохранить их максимальную эффективность."
       },
       "garajes": {
-        "title": "Garajes y entradas",
-        "desc": "Eliminamos manchas de aceite, marcas de neumáticos, polvo y suciedad incrustada."
+        "title": "Гаражи и въезды",
+        "desc": "Удаляем масляные пятна, следы шин, пыль и въевшуюся грязь."
       },
       "muros": {
-        "title": "Muros y vallados",
-        "desc": "Limpieza profesional de cerramientos, muros y elementos exteriores para un acabado uniforme y renovado."
+        "title": "Заборы и ограждения",
+        "desc": "Профессиональная чистка ограждений, стен и наружных элементов для ровного, обновлённого вида."
       }
     }
   },
   "compromiso": {
-    "kicker": "Compromiso Velaro",
-    "titleLine1": "Calidad que",
-    "titleAccent": "se nota.",
-    "intro": "Tratamos cada propiedad como si fuera nuestra. Nuestro objetivo no es simplemente limpiar, sino recuperar la mejor versión de cada superficie, aportando valor estético, protección y una imagen impecable a tu hogar o negocio.",
+    "kicker": "Принципы Velaro",
+    "titleLine1": "Качество, которое",
+    "titleAccent": "заметно.",
+    "intro": "Относимся к каждому объекту как к своему. Наша цель — не просто помыть, а раскрыть лучшую версию каждой поверхности, придавая дому или бизнесу эстетику, защиту и безупречный вид.",
     "points": [
-      "Atención personalizada y trato cercano",
-      "Acabados premium en cada superficie",
-      "Resultados visibles desde la primera limpieza",
-      "Puntualidad y profesionalidad"
+      "Индивидуальный и внимательный подход",
+      "Премиальный результат на каждой поверхности",
+      "Видимый результат с первой чистки",
+      "Пунктуальность и профессионализм"
     ]
   },
   "tecnologia": {
-    "kicker": "Tecnología y precisión",
-    "titleLine1": "Equipos profesionales.",
-    "titleLine2Pre": "Resultados ",
-    "titleLine2Accent": "superiores.",
-    "subtitle": "Trabajamos con equipos profesionales Kärcher y productos de limpieza especializados para garantizar resultados superiores.",
+    "kicker": "Технологии и точность",
+    "titleLine1": "Профессиональное оборудование.",
+    "titleLine2Pre": "Превосходный ",
+    "titleLine2Accent": "результат.",
+    "subtitle": "Работаем с профессиональным оборудованием Kärcher и специализированными средствами, чтобы гарантировать превосходный результат.",
     "points": [
-      "Equipamiento Kärcher Professional",
-      "Productos de limpieza de alta calidad",
-      "Máxima eficacia en manchas difíciles",
-      "Resultados duraderos"
+      "Оборудование Kärcher Professional",
+      "Высококачественные чистящие средства",
+      "Максимальная эффективность на сложных пятнах",
+      "Долговечный результат"
     ],
-    "footnote": "Nuestros equipos permiten eliminar incluso las manchas más difíciles producidas por años de acumulación de suciedad, humedad, moho, polvo, grasa y contaminación ambiental."
+    "footnote": "Наше оборудование удаляет даже самые сложные пятна от многолетней грязи, влаги, плесени, пыли, жира и загрязнений окружающей среды.",
+    "brandLabel": "Официальное оборудование",
+    "brandTagline": "Работаем с мировым лидером технологий профессиональной мойки под давлением — ради превосходного результата на каждой поверхности."
   },
   "proceso": {
-    "kicker": "Nuestro proceso",
-    "titleLine1": "Así trabajamos,",
-    "titleAccent": "paso a paso.",
-    "subtitle": "Un método claro y eficiente para obtener resultados impecables en cada proyecto.",
+    "kicker": "Наш процесс",
+    "titleLine1": "Как мы работаем,",
+    "titleAccent": "шаг за шагом.",
+    "subtitle": "Понятный и эффективный метод для безупречного результата в каждом проекте.",
     "steps": [
       {
         "num": "01",
-        "title": "Evaluación",
-        "desc": "Analizamos la superficie y el nivel de suciedad."
+        "title": "Оценка",
+        "desc": "Анализируем поверхность и степень загрязнения."
       },
       {
         "num": "02",
-        "title": "Plan personalizado",
-        "desc": "Seleccionamos la técnica y los productos adecuados."
+        "title": "Индивидуальный план",
+        "desc": "Подбираем подходящую технику и средства."
       },
       {
         "num": "03",
-        "title": "Limpieza profesional",
-        "desc": "Aplicamos equipos Kärcher Professional y productos especializados."
+        "title": "Профессиональная чистка",
+        "desc": "Применяем оборудование Kärcher Professional и специальные средства."
       },
       {
         "num": "04",
-        "title": "Resultado impecable",
-        "desc": "Entregamos superficies limpias, renovadas y protegidas."
+        "title": "Безупречный результат",
+        "desc": "Сдаём чистые, обновлённые и защищённые поверхности."
       }
     ]
   },
   "calculadora": {
-    "kicker": "Presupuesto al instante",
-    "titleLine1": "Calcula tu precio",
-    "titleAccent": "exacto.",
-    "subtitle": "Indica la superficie y obtén el precio al instante, sin sorpresas. Confirmamos los detalles con una valoración gratuita.",
-    "labelSurface": "Tipo de superficie",
-    "labelArea": "Superficie aproximada",
-    "labelPanels": "Número de paneles",
-    "labelUrgency": "¿Necesitas servicio urgente?",
+    "kicker": "Смета мгновенно",
+    "titleLine1": "Рассчитайте точную",
+    "titleAccent": "цену.",
+    "subtitle": "Укажите площадь и получите цену мгновенно, без сюрпризов. Детали подтверждаем при бесплатной оценке.",
+    "labelSurface": "Тип поверхности",
+    "labelArea": "Примерная площадь",
+    "labelPanels": "Количество панелей",
+    "labelUrgency": "Нужна срочная услуга?",
     "surfaces": {
-      "patios": "Patios y terrazas",
-      "fachadas": "Fachadas",
-      "cubiertas": "Cubiertas y tejados",
-      "placas": "Placas solares",
-      "garajes": "Garajes y entradas",
-      "muros": "Muros y vallados"
+      "patios": "Патио и террасы",
+      "fachadas": "Фасады",
+      "cubiertas": "Крыши",
+      "placas": "Солнечные панели",
+      "garajes": "Гаражи и въезды",
+      "muros": "Заборы и ограждения"
     },
     "urgency": {
-      "no": "No, fecha flexible",
-      "yes": "Sí, lo antes posible"
+      "no": "Нет, дата гибкая",
+      "yes": "Да, как можно скорее"
     },
-    "estimateLabel": "Precio",
-    "perJob": "según la superficie indicada",
-    "disclaimer": "Precio calculado con los datos que indicas. El servicio mínimo es de 120 €. Confirmamos la superficie final sin compromiso.",
-    "cta": "Pedir presupuesto por WhatsApp",
-    "areaUnit": "m²",
-    "panelUnit": "paneles",
-    "priceNote": "Servicio mínimo 120 € · Servicio urgente +20 %"
+    "estimateLabel": "Цена",
+    "perJob": "за указанную площадь",
+    "disclaimer": "Цена рассчитана по указанным данным. Минимальный заказ — 120 €. Итоговую площадь подтверждаем без обязательств.",
+    "cta": "Запросить смету в WhatsApp",
+    "areaUnit": "м²",
+    "panelUnit": "панелей",
+    "priceNote": "Минимальный заказ 120 € · Срочная услуга +20 %"
   },
   "precios": {
-    "kicker": "Precios claros",
-    "titleLine1": "Tarifas",
-    "titleAccent": "transparentes.",
-    "subtitle": "Sin sorpresas: estos son nuestros precios por tipo de superficie.",
-    "featured": "Más solicitado",
-    "min": "Servicio mínimo",
+    "kicker": "Понятные цены",
+    "titleLine1": "Прозрачные",
+    "titleAccent": "тарифы.",
+    "subtitle": "Без сюрпризов: вот наши цены по типу поверхности.",
+    "featured": "Чаще всего заказывают",
+    "min": "Минимальный заказ",
     "minValue": "120 €",
-    "urgent": "Servicio urgente",
+    "urgent": "Срочная услуга",
     "urgentValue": "+20 %",
-    "note": "El precio final depende de la superficie a tratar y se confirma en una valoración in situ."
+    "note": "Итоговая цена зависит от обрабатываемой площади и подтверждается при оценке на месте."
   },
   "reseñas": {
-    "kicker": "Reseñas",
-    "titleLine1": "Lo que dicen",
-    "titleAccent": "nuestros clientes.",
+    "kicker": "Отзывы",
+    "titleLine1": "Что говорят",
+    "titleAccent": "наши клиенты.",
     "items": [
       {
         "name": "María G.",
         "location": "Madrid",
-        "text": "El resultado en la terraza fue espectacular. Parecía nueva. Muy profesionales y puntuales."
+        "text": "Результат на террасе впечатлил. Выглядела как новая. Очень профессионально и пунктуально."
       },
       {
         "name": "Carlos R.",
         "location": "Las Rozas",
-        "text": "Limpiaron la fachada y las placas solares de casa. Trato cercano y un acabado impecable."
+        "text": "Помыли фасад и солнечные панели. Приятное общение и безупречный результат."
       },
       {
         "name": "Elena M.",
         "location": "Pozuelo",
-        "text": "Presupuesto claro desde el principio y sin sorpresas. El garaje quedó como el primer día."
+        "text": "Понятная смета с самого начала, без сюрпризов. Гараж как новый."
       }
     ]
   },
   "contacto": {
-    "kicker": "Solicita tu presupuesto",
-    "titleLine1": "Cuéntanos",
-    "titleAccent": "qué necesitas.",
-    "subtitle": "Prepararemos una propuesta personalizada para ti.",
+    "kicker": "Запросите смету",
+    "titleLine1": "Расскажите,",
+    "titleAccent": "что нужно.",
+    "subtitle": "Подготовим для вас индивидуальное предложение.",
     "points": [
-      "Presupuesto sin compromiso",
-      "Respuesta rápida",
-      "Servicio disponible también sábados y domingos",
-      "Atención profesional y cercana"
+      "Смета без обязательств",
+      "Быстрый ответ",
+      "Работаем и по субботам, и по воскресеньям",
+      "Профессиональный и внимательный сервис"
     ],
-    "whatsapp": "Escríbenos por WhatsApp",
+    "whatsapp": "Напишите нам в WhatsApp",
     "email": "info@velaro.es",
     "phone": "+34 600 123 456",
     "instagram": "@velaro.cleaning"
   },
   "solar": {
-    "kicker": "Especialistas solares",
-    "caption": "Placas solares",
-    "titleLine1": "Tus paneles rinden más",
-    "titleAccent": "limpios.",
-    "intro": "El polvo, el polen, la cal y los excrementos de aves reducen la producción de tus placas solares. Una limpieza profesional y segura recupera su eficiencia y protege tu inversión.",
+    "kicker": "Специалисты по панелям",
+    "caption": "Солнечные панели",
+    "titleLine1": "Чистые панели работают",
+    "titleAccent": "лучше.",
+    "intro": "Пыль, пыльца, известковый налёт и птичий помёт снижают выработку ваших солнечных панелей. Профессиональная и безопасная мойка возвращает эффективность и защищает вашу инвестицию.",
     "points": [
-      "Recupera hasta un 20 % de rendimiento perdido por suciedad",
-      "Agua desionizada: sin cal, sin marcas y sin residuos",
-      "Métodos seguros que no rayan ni dañan los paneles",
-      "Trabajamos sobre cubiertas, suelo y estructuras inclinadas",
-      "Limpieza periódica recomendada 1–2 veces al año"
+      "Возвращает до 20 % выработки, потерянной из-за грязи",
+      "Деионизированная вода: без налёта, разводов и остатков",
+      "Безопасные методы — не царапают и не повреждают панели",
+      "Работаем на крышах, на земле и на наклонных конструкциях",
+      "Регулярная чистка рекомендуется 1–2 раза в год"
     ],
     "stat1Value": "10 €",
-    "stat1Label": "por panel",
+    "stat1Label": "за панель",
     "stat2Value": "20 %",
-    "stat2Label": "más rendimiento",
+    "stat2Label": "больше выработки",
     "stat3Value": "1–2x",
-    "stat3Label": "al año recomendado",
-    "cta": "Calcular limpieza de placas",
-    "before": "Antes",
-    "after": "Después"
+    "stat3Label": "раза в год",
+    "cta": "Рассчитать мойку панелей",
+    "before": "До",
+    "after": "После"
   },
   "faq": {
-    "kicker": "Preguntas frecuentes",
-    "titleLine1": "Resolvemos tus",
-    "titleAccent": "dudas.",
+    "kicker": "Частые вопросы",
+    "titleLine1": "Отвечаем на ваши",
+    "titleAccent": "вопросы.",
     "items": [
       {
-        "q": "¿Cada cuánto hay que limpiar las placas solares?",
-        "a": "Lo recomendable es realizar una limpieza profesional 1 o 2 veces al año. La frecuencia depende de la zona, la inclinación de los paneles y la cercanía a árboles, obras o caminos de tierra que aceleran la acumulación de suciedad."
+        "q": "Как часто нужно мыть солнечные панели?",
+        "a": "Рекомендуется профессиональная мойка 1–2 раза в год. Частота зависит от района, угла наклона панелей и близости деревьев, стройки или грунтовых дорог, которые ускоряют накопление грязи."
       },
       {
-        "q": "¿Cuánto cuesta la limpieza de placas solares?",
-        "a": "Desde 10 € por panel, con un servicio mínimo de 120 €. Puedes obtener una estimación al instante en nuestra calculadora y confirmamos el precio final con una valoración gratuita y sin compromiso."
+        "q": "Сколько стоит мойка солнечных панелей?",
+        "a": "От 10 € за панель, минимальный заказ — 120 €. Мгновенную оценку можно получить в нашем калькуляторе, а итоговую цену подтверждаем при бесплатной оценке без обязательств."
       },
       {
-        "q": "¿La limpieza puede dañar o rayar los paneles?",
-        "a": "No. Utilizamos agua desionizada y cepillos suaves específicos para placas solares, sin productos abrasivos. Es un método seguro que respeta la superficie y el recubrimiento de los paneles."
+        "q": "Может ли мойка повредить или поцарапать панели?",
+        "a": "Нет. Используем деионизированную воду и мягкие щётки специально для солнечных панелей, без абразивных средств. Это безопасный метод, бережный к поверхности и покрытию панелей."
       },
       {
-        "q": "¿En qué zonas trabajáis?",
-        "a": "Damos servicio en Madrid y alrededores: Las Rozas, Pozuelo de Alarcón, Majadahonda, Boadilla del Monte y el resto de la Comunidad de Madrid."
+        "q": "В каких районах вы работаете?",
+        "a": "Обслуживаем Мадрид и пригороды: Las Rozas, Pozuelo de Alarcón, Majadahonda, Boadilla del Monte и остальную часть региона Мадрид."
       },
       {
-        "q": "¿El presupuesto tiene algún coste?",
-        "a": "No. El presupuesto es totalmente gratuito y sin compromiso. Atendemos también sábados y domingos para adaptarnos a tu disponibilidad."
+        "q": "Смета платная?",
+        "a": "Нет. Смета полностью бесплатна и без обязательств. Работаем также по субботам и воскресеньям, подстраиваясь под ваше время."
       }
     ]
   },
   "footer": {
-    "tagline": "Resultados que se ven. Calidad que permanece.",
-    "areasLabel": "Zonas de servicio",
-    "rights": "Todos los derechos reservados.",
-    "nav": "Navegación",
-    "contact": "Contacto",
-    "social": "Síguenos"
+    "tagline": "Заметный результат. Качество, которое остаётся.",
+    "areasLabel": "Районы обслуживания",
+    "rights": "Все права защищены.",
+    "nav": "Навигация",
+    "contact": "Контакты",
+    "social": "Мы в соцсетях"
   }
 }

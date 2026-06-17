@@ -35,16 +35,13 @@ export default function Tecnologia() {
         <Reveal delay={0.12} className={styles.visual} y={20}>
           <div className={styles.karcher}>
             <span className={styles.karcherBadge}>
-              <Icon.shield width={15} height={15} /> Equipo oficial
+              <Icon.shield width={15} height={15} /> {t('brandLabel')}
             </span>
             <div className={styles.karcherBrand}>
               <span className={styles.karcherName}>KÄRCHER</span>
               <span className={styles.karcherPro}>Professional</span>
             </div>
-            <p className={styles.karcherText}>
-              Trabajamos con la tecnología líder mundial en limpieza profesional a
-              presión, para resultados superiores en cada superficie.
-            </p>
+            <p className={styles.karcherText}>{t('brandTagline')}</p>
           </div>
         </Reveal>
       </div>

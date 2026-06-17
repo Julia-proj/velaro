@@ -1,274 +1,276 @@
 {
   "meta": {
-    "title": "Limpieza de Placas Solares en Madrid · Presupuesto Gratis",
-    "titleTemplate": "%s · Velaro Limpieza Exterior",
-    "description": "Limpieza exterior profesional en Madrid: patios, terrazas, fachadas, cubiertas, placas solares, garajes y muros. Equipos Kärcher, resultados que se notan. Presupuesto gratis y sin compromiso.",
-    "keywords": "limpieza exterior Madrid, limpieza de fachadas, limpieza de placas solares, limpieza de patios, limpieza de terrazas, limpieza de cubiertas y tejados, hidrolimpieza, limpieza con Kärcher, limpieza de garajes, limpieza de muros, empresa de limpieza Madrid",
-    "ogAlt": "Velaro — Limpieza exterior profesional en Madrid"
+    "title": "Solar Panel Cleaning in Madrid · Free Quote",
+    "titleTemplate": "%s · Velaro Exterior Cleaning",
+    "description": "Professional exterior cleaning in Madrid: patios, terraces, façades, roofs, solar panels, garages and walls. Kärcher equipment, results you can see. Free, no-obligation quote.",
+    "keywords": "exterior cleaning Madrid, façade cleaning, solar panel cleaning, patio cleaning, terrace cleaning, roof cleaning, pressure washing, Kärcher cleaning, garage cleaning, wall cleaning, cleaning company Madrid",
+    "ogAlt": "Velaro — Professional exterior cleaning in Madrid"
   },
   "nav": {
-    "inicio": "Inicio",
-    "servicios": "Servicios",
-    "nosotros": "Nosotros",
-    "trabajos": "Trabajos",
-    "contacto": "Contacto",
-    "presupuesto": "Presupuesto"
+    "inicio": "Home",
+    "servicios": "Services",
+    "nosotros": "About",
+    "trabajos": "Work",
+    "contacto": "Contact",
+    "presupuesto": "Quote"
   },
   "hero": {
-    "kicker": "Limpieza exterior · Madrid",
-    "titleLine1": "Limpieza de placas solares ",
-    "titleLine2Pre": "y exteriores en ",
+    "kicker": "Exterior cleaning · Madrid",
+    "titleLine1": "Solar panel cleaning ",
+    "titleLine2Pre": "& exteriors in ",
     "titleLine2Accent": "Madrid",
-    "subtitle": "Recuperamos cada superficie con equipos profesionales. Precios claros desde 5 €/m² y presupuesto gratis.",
-    "tags": ["Placas solares", "Patios", "Fachadas", "Cubiertas"],
-    "cta": "Solicitar presupuesto"
+    "subtitle": "We restore every surface with professional equipment. Clear prices from 5 €/m² and a free quote.",
+    "tags": ["Solar panels", "Patios", "Façades", "Roofs"],
+    "cta": "Request a quote"
   },
   "trust": {
     "items": [
-      "Presupuesto gratis",
-      "Equipos Kärcher",
-      "Madrid y alrededores",
-      "Lunes a domingo"
+      "Free quote",
+      "Kärcher equipment",
+      "Madrid & nearby",
+      "Monday to Sunday"
     ]
   },
   "compare": {
-    "kicker": "Antes y después",
-    "titleLine1": "La diferencia",
-    "titleAccent": "se ve.",
-    "subtitle": "Recuperamos la belleza original de cada superficie.",
-    "before": "Antes",
-    "after": "Después",
+    "kicker": "Before & after",
+    "titleLine1": "The difference",
+    "titleAccent": "shows.",
+    "subtitle": "We restore the original beauty of every surface.",
+    "before": "Before",
+    "after": "After",
     "items": [
-      "Patios y terrazas",
-      "Terrazas",
-      "Placas solares",
-      "Placas solares",
-      "Garajes",
-      "Entradas y accesos"
+      "Patios & terraces",
+      "Terraces",
+      "Solar panels",
+      "Solar panels",
+      "Garages",
+      "Driveways & entrances"
     ]
   },
   "services": {
-    "kicker": "Servicios Premium",
-    "titleLine1": "Cuidamos cada",
-    "titleLine2Pre": "detalle ",
-    "titleLine2Accent": "exterior.",
-    "subtitle": "Soluciones profesionales para todo tipo de superficies. Resultados impecables, duraderos y seguros.",
+    "kicker": "Premium Services",
+    "titleLine1": "We care for every",
+    "titleLine2Pre": "exterior ",
+    "titleLine2Accent": "detail.",
+    "subtitle": "Professional solutions for all kinds of surfaces. Impeccable, lasting and safe results.",
     "items": {
       "patios": {
-        "title": "Patios y terrazas",
-        "desc": "Recuperamos el aspecto original de pavimentos, porcelánicos, piedra natural, hormigón impreso y superficies exteriores."
+        "title": "Patios & terraces",
+        "desc": "We restore the original look of paving, porcelain tiles, natural stone, printed concrete and outdoor surfaces."
       },
       "fachadas": {
-        "title": "Fachadas",
-        "desc": "Eliminamos suciedad, polvo, contaminación, manchas y residuos acumulados para devolver a tu fachada una imagen limpia y cuidada."
+        "title": "Façades",
+        "desc": "We remove dirt, dust, pollution, stains and built-up residue to give your façade a clean, cared-for look."
       },
       "cubiertas": {
-        "title": "Cubiertas y tejados",
-        "desc": "Retiramos musgo, suciedad, hojas y residuos que afectan la estética y pueden acelerar el deterioro de la cubierta."
+        "title": "Roofs",
+        "desc": "We remove moss, dirt, leaves and debris that affect the look and can speed up roof deterioration."
       },
       "placas": {
-        "title": "Placas solares",
-        "desc": "La acumulación de polvo y suciedad reduce el rendimiento de los paneles. Realizamos limpiezas seguras para ayudar a mantener su máxima eficiencia."
+        "title": "Solar panels",
+        "desc": "Dust and dirt build-up reduces panel output. We carry out safe cleaning to help keep them at peak efficiency."
       },
       "garajes": {
-        "title": "Garajes y entradas",
-        "desc": "Eliminamos manchas de aceite, marcas de neumáticos, polvo y suciedad incrustada."
+        "title": "Garages & driveways",
+        "desc": "We remove oil stains, tyre marks, dust and ingrained dirt."
       },
       "muros": {
-        "title": "Muros y vallados",
-        "desc": "Limpieza profesional de cerramientos, muros y elementos exteriores para un acabado uniforme y renovado."
+        "title": "Walls & fences",
+        "desc": "Professional cleaning of enclosures, walls and outdoor elements for an even, renewed finish."
       }
     }
   },
   "compromiso": {
-    "kicker": "Compromiso Velaro",
-    "titleLine1": "Calidad que",
-    "titleAccent": "se nota.",
-    "intro": "Tratamos cada propiedad como si fuera nuestra. Nuestro objetivo no es simplemente limpiar, sino recuperar la mejor versión de cada superficie, aportando valor estético, protección y una imagen impecable a tu hogar o negocio.",
+    "kicker": "The Velaro promise",
+    "titleLine1": "Quality you",
+    "titleAccent": "can see.",
+    "intro": "We treat every property as if it were our own. Our goal isn't just to clean, but to bring out the best version of every surface — adding aesthetic value, protection and an impeccable look to your home or business.",
     "points": [
-      "Atención personalizada y trato cercano",
-      "Acabados premium en cada superficie",
-      "Resultados visibles desde la primera limpieza",
-      "Puntualidad y profesionalidad"
+      "Personal, close attention",
+      "Premium finish on every surface",
+      "Visible results from the first clean",
+      "Punctuality and professionalism"
     ]
   },
   "tecnologia": {
-    "kicker": "Tecnología y precisión",
-    "titleLine1": "Equipos profesionales.",
-    "titleLine2Pre": "Resultados ",
-    "titleLine2Accent": "superiores.",
-    "subtitle": "Trabajamos con equipos profesionales Kärcher y productos de limpieza especializados para garantizar resultados superiores.",
+    "kicker": "Technology & precision",
+    "titleLine1": "Professional equipment.",
+    "titleLine2Pre": "Superior ",
+    "titleLine2Accent": "results.",
+    "subtitle": "We work with professional Kärcher equipment and specialised cleaning products to guarantee superior results.",
     "points": [
-      "Equipamiento Kärcher Professional",
-      "Productos de limpieza de alta calidad",
-      "Máxima eficacia en manchas difíciles",
-      "Resultados duraderos"
+      "Kärcher Professional equipment",
+      "High-quality cleaning products",
+      "Maximum efficacy on tough stains",
+      "Long-lasting results"
     ],
-    "footnote": "Nuestros equipos permiten eliminar incluso las manchas más difíciles producidas por años de acumulación de suciedad, humedad, moho, polvo, grasa y contaminación ambiental."
+    "footnote": "Our equipment removes even the toughest stains caused by years of built-up dirt, damp, mould, dust, grease and environmental pollution.",
+    "brandLabel": "Official equipment",
+    "brandTagline": "We work with the world-leading technology in professional pressure cleaning, for superior results on every surface."
   },
   "proceso": {
-    "kicker": "Nuestro proceso",
-    "titleLine1": "Así trabajamos,",
-    "titleAccent": "paso a paso.",
-    "subtitle": "Un método claro y eficiente para obtener resultados impecables en cada proyecto.",
+    "kicker": "Our process",
+    "titleLine1": "How we work,",
+    "titleAccent": "step by step.",
+    "subtitle": "A clear, efficient method to achieve impeccable results on every project.",
     "steps": [
       {
         "num": "01",
-        "title": "Evaluación",
-        "desc": "Analizamos la superficie y el nivel de suciedad."
+        "title": "Assessment",
+        "desc": "We analyse the surface and the level of dirt."
       },
       {
         "num": "02",
-        "title": "Plan personalizado",
-        "desc": "Seleccionamos la técnica y los productos adecuados."
+        "title": "Tailored plan",
+        "desc": "We choose the right technique and products."
       },
       {
         "num": "03",
-        "title": "Limpieza profesional",
-        "desc": "Aplicamos equipos Kärcher Professional y productos especializados."
+        "title": "Professional cleaning",
+        "desc": "We apply Kärcher Professional equipment and specialised products."
       },
       {
         "num": "04",
-        "title": "Resultado impecable",
-        "desc": "Entregamos superficies limpias, renovadas y protegidas."
+        "title": "Impeccable result",
+        "desc": "We deliver clean, renewed and protected surfaces."
       }
     ]
   },
   "calculadora": {
-    "kicker": "Presupuesto al instante",
-    "titleLine1": "Calcula tu precio",
-    "titleAccent": "exacto.",
-    "subtitle": "Indica la superficie y obtén el precio al instante, sin sorpresas. Confirmamos los detalles con una valoración gratuita.",
-    "labelSurface": "Tipo de superficie",
-    "labelArea": "Superficie aproximada",
-    "labelPanels": "Número de paneles",
-    "labelUrgency": "¿Necesitas servicio urgente?",
+    "kicker": "Instant quote",
+    "titleLine1": "Calculate your exact",
+    "titleAccent": "price.",
+    "subtitle": "Enter the surface and get the price instantly, no surprises. We confirm the details with a free assessment.",
+    "labelSurface": "Surface type",
+    "labelArea": "Approximate surface",
+    "labelPanels": "Number of panels",
+    "labelUrgency": "Do you need urgent service?",
     "surfaces": {
-      "patios": "Patios y terrazas",
-      "fachadas": "Fachadas",
-      "cubiertas": "Cubiertas y tejados",
-      "placas": "Placas solares",
-      "garajes": "Garajes y entradas",
-      "muros": "Muros y vallados"
+      "patios": "Patios & terraces",
+      "fachadas": "Façades",
+      "cubiertas": "Roofs",
+      "placas": "Solar panels",
+      "garajes": "Garages & driveways",
+      "muros": "Walls & fences"
     },
     "urgency": {
-      "no": "No, fecha flexible",
-      "yes": "Sí, lo antes posible"
+      "no": "No, flexible date",
+      "yes": "Yes, as soon as possible"
     },
-    "estimateLabel": "Precio",
-    "perJob": "según la superficie indicada",
-    "disclaimer": "Precio calculado con los datos que indicas. El servicio mínimo es de 120 €. Confirmamos la superficie final sin compromiso.",
-    "cta": "Pedir presupuesto por WhatsApp",
+    "estimateLabel": "Price",
+    "perJob": "for the surface entered",
+    "disclaimer": "Price calculated from the details you enter. The minimum service is 120 €. We confirm the final surface with no obligation.",
+    "cta": "Request quote on WhatsApp",
     "areaUnit": "m²",
-    "panelUnit": "paneles",
-    "priceNote": "Servicio mínimo 120 € · Servicio urgente +20 %"
+    "panelUnit": "panels",
+    "priceNote": "Minimum service 120 € · Urgent service +20 %"
   },
   "precios": {
-    "kicker": "Precios claros",
-    "titleLine1": "Tarifas",
-    "titleAccent": "transparentes.",
-    "subtitle": "Sin sorpresas: estos son nuestros precios por tipo de superficie.",
-    "featured": "Más solicitado",
-    "min": "Servicio mínimo",
+    "kicker": "Clear prices",
+    "titleLine1": "Transparent",
+    "titleAccent": "rates.",
+    "subtitle": "No surprises — these are our prices by surface type.",
+    "featured": "Most requested",
+    "min": "Minimum service",
     "minValue": "120 €",
-    "urgent": "Servicio urgente",
+    "urgent": "Urgent service",
     "urgentValue": "+20 %",
-    "note": "El precio final depende de la superficie a tratar y se confirma en una valoración in situ."
+    "note": "The final price depends on the surface to be treated and is confirmed in an on-site assessment."
   },
   "reseñas": {
-    "kicker": "Reseñas",
-    "titleLine1": "Lo que dicen",
-    "titleAccent": "nuestros clientes.",
+    "kicker": "Reviews",
+    "titleLine1": "What our",
+    "titleAccent": "clients say.",
     "items": [
       {
         "name": "María G.",
         "location": "Madrid",
-        "text": "El resultado en la terraza fue espectacular. Parecía nueva. Muy profesionales y puntuales."
+        "text": "The result on the terrace was spectacular. It looked brand new. Very professional and punctual."
       },
       {
         "name": "Carlos R.",
         "location": "Las Rozas",
-        "text": "Limpiaron la fachada y las placas solares de casa. Trato cercano y un acabado impecable."
+        "text": "They cleaned our façade and solar panels. Friendly service and an impeccable finish."
       },
       {
         "name": "Elena M.",
         "location": "Pozuelo",
-        "text": "Presupuesto claro desde el principio y sin sorpresas. El garaje quedó como el primer día."
+        "text": "A clear quote from the start, no surprises. The garage looked as good as new."
       }
     ]
   },
   "contacto": {
-    "kicker": "Solicita tu presupuesto",
-    "titleLine1": "Cuéntanos",
-    "titleAccent": "qué necesitas.",
-    "subtitle": "Prepararemos una propuesta personalizada para ti.",
+    "kicker": "Request your quote",
+    "titleLine1": "Tell us",
+    "titleAccent": "what you need.",
+    "subtitle": "We'll prepare a tailored proposal for you.",
     "points": [
-      "Presupuesto sin compromiso",
-      "Respuesta rápida",
-      "Servicio disponible también sábados y domingos",
-      "Atención profesional y cercana"
+      "Quote with no obligation",
+      "Fast response",
+      "Available on Saturdays and Sundays too",
+      "Professional, friendly service"
     ],
-    "whatsapp": "Escríbenos por WhatsApp",
+    "whatsapp": "Message us on WhatsApp",
     "email": "info@velaro.es",
     "phone": "+34 600 123 456",
     "instagram": "@velaro.cleaning"
   },
   "solar": {
-    "kicker": "Especialistas solares",
-    "caption": "Placas solares",
-    "titleLine1": "Tus paneles rinden más",
-    "titleAccent": "limpios.",
-    "intro": "El polvo, el polen, la cal y los excrementos de aves reducen la producción de tus placas solares. Una limpieza profesional y segura recupera su eficiencia y protege tu inversión.",
+    "kicker": "Solar specialists",
+    "caption": "Solar panels",
+    "titleLine1": "Your panels perform better",
+    "titleAccent": "clean.",
+    "intro": "Dust, pollen, limescale and bird droppings reduce your solar panels' output. Professional, safe cleaning restores their efficiency and protects your investment.",
     "points": [
-      "Recupera hasta un 20 % de rendimiento perdido por suciedad",
-      "Agua desionizada: sin cal, sin marcas y sin residuos",
-      "Métodos seguros que no rayan ni dañan los paneles",
-      "Trabajamos sobre cubiertas, suelo y estructuras inclinadas",
-      "Limpieza periódica recomendada 1–2 veces al año"
+      "Recover up to 20% of output lost to dirt",
+      "Deionised water: no limescale, marks or residue",
+      "Safe methods that won't scratch or damage the panels",
+      "We work on roofs, ground mounts and tilted structures",
+      "Periodic cleaning recommended 1–2 times a year"
     ],
     "stat1Value": "10 €",
-    "stat1Label": "por panel",
+    "stat1Label": "per panel",
     "stat2Value": "20 %",
-    "stat2Label": "más rendimiento",
+    "stat2Label": "more output",
     "stat3Value": "1–2x",
-    "stat3Label": "al año recomendado",
-    "cta": "Calcular limpieza de placas",
-    "before": "Antes",
-    "after": "Después"
+    "stat3Label": "a year recommended",
+    "cta": "Calculate panel cleaning",
+    "before": "Before",
+    "after": "After"
   },
   "faq": {
-    "kicker": "Preguntas frecuentes",
-    "titleLine1": "Resolvemos tus",
-    "titleAccent": "dudas.",
+    "kicker": "Frequently asked questions",
+    "titleLine1": "We answer your",
+    "titleAccent": "questions.",
     "items": [
       {
-        "q": "¿Cada cuánto hay que limpiar las placas solares?",
-        "a": "Lo recomendable es realizar una limpieza profesional 1 o 2 veces al año. La frecuencia depende de la zona, la inclinación de los paneles y la cercanía a árboles, obras o caminos de tierra que aceleran la acumulación de suciedad."
+        "q": "How often should solar panels be cleaned?",
+        "a": "We recommend a professional clean 1–2 times a year. The frequency depends on the area, the panel tilt and how close they are to trees, building works or dirt roads that speed up dirt build-up."
       },
       {
-        "q": "¿Cuánto cuesta la limpieza de placas solares?",
-        "a": "Desde 10 € por panel, con un servicio mínimo de 120 €. Puedes obtener una estimación al instante en nuestra calculadora y confirmamos el precio final con una valoración gratuita y sin compromiso."
+        "q": "How much does solar panel cleaning cost?",
+        "a": "From 10 € per panel, with a 120 € minimum service. You can get an instant estimate with our calculator, and we confirm the final price with a free, no-obligation assessment."
       },
       {
-        "q": "¿La limpieza puede dañar o rayar los paneles?",
-        "a": "No. Utilizamos agua desionizada y cepillos suaves específicos para placas solares, sin productos abrasivos. Es un método seguro que respeta la superficie y el recubrimiento de los paneles."
+        "q": "Can cleaning damage or scratch the panels?",
+        "a": "No. We use deionised water and soft brushes made for solar panels, with no abrasive products. It's a safe method that respects the surface and coating of the panels."
       },
       {
-        "q": "¿En qué zonas trabajáis?",
-        "a": "Damos servicio en Madrid y alrededores: Las Rozas, Pozuelo de Alarcón, Majadahonda, Boadilla del Monte y el resto de la Comunidad de Madrid."
+        "q": "Which areas do you cover?",
+        "a": "We serve Madrid and the surrounding area: Las Rozas, Pozuelo de Alarcón, Majadahonda, Boadilla del Monte and the rest of the Region of Madrid."
       },
       {
-        "q": "¿El presupuesto tiene algún coste?",
-        "a": "No. El presupuesto es totalmente gratuito y sin compromiso. Atendemos también sábados y domingos para adaptarnos a tu disponibilidad."
+        "q": "Is there any cost for the quote?",
+        "a": "No. The quote is completely free and with no obligation. We also work Saturdays and Sundays to fit your availability."
       }
     ]
   },
   "footer": {
-    "tagline": "Resultados que se ven. Calidad que permanece.",
-    "areasLabel": "Zonas de servicio",
-    "rights": "Todos los derechos reservados.",
-    "nav": "Navegación",
-    "contact": "Contacto",
-    "social": "Síguenos"
+    "tagline": "Results you can see. Quality that lasts.",
+    "areasLabel": "Service areas",
+    "rights": "All rights reserved.",
+    "nav": "Navigation",
+    "contact": "Contact",
+    "social": "Follow us"
   }
 }
